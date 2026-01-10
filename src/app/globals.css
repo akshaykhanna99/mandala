@@ -1,26 +1,45 @@
 @import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #f4efe6;
+  --paper-strong: #e9e1d4;
+  --ink: #1e201b;
+  --ink-muted: #4a4c43;
+  --sea: #cbd9e7;
+  --sea-deep: #95a7bd;
+  --ember: #c46334;
+  --mist: #f7f2ea;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-ui);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at 10% 10%, #ffffff 0%, var(--paper) 35%, var(--paper-strong) 100%),
+    linear-gradient(120deg, rgba(201, 217, 231, 0.35) 0%, rgba(196, 99, 52, 0.12) 55%, rgba(233, 225, 212, 0.8) 100%);
+  color: var(--ink);
+  font-family: var(--font-ui), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 42s linear infinite;
 }

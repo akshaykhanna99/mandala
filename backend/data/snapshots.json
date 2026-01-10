@@ -1,0 +1,3979 @@
+[
+  {
+    "id": "AW",
+    "name": "Aruba",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AF",
+    "name": "Afghanistan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AO",
+    "name": "Angola",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AI",
+    "name": "Anguilla",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AX",
+    "name": "Aland",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+    "events": [
+      {
+        "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 9 Jan 2026",
+        "summary": "<div class=\"tag country\">Country: Somalia</div>\n                                      <div class=\"tag source\">Source: Radio Ergo</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/2d/0e2d0c94-cc88-4430-85a4-f6332b92af29.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Brief Analysis</strong></p>\n<p>This is our first report of the new year, based on the collection of calls recorded on Radio Ergo\u2019s toll-free platform in the week 1-7 January 2026. The majority of callers spoke about the hardships they are experiencing as a result of the ongoing drought, many of them describing extreme conditions with no water, lack of food and livestock fodder, dried up farms, and dead or sick livestock. Some callers indicated losing livelihoods and driven into destitution after being displaced by conflict. Farmers particularly in Hirshabelle areas complained of aphid attacks on their crops. The majority of calls overall came from central regions and southern regions. (There appears to have been a technical issue on the platform during the week limiting calls from northern regions \u2013 we are looking into this).</p>\n<p>The Radio Ergo platform is open to audiences across the country, many of whom call to share their daily lives and livelihoods challenges, whilst others engage with some of the thematic programmes we broadcast involving experts on health, farming, livestock, environment, mental health, and nutrition.</p>\n<p>We produce and share these weekly analysis reports in order to connect audiences (local communities) with a wider network of relevant stakeholders. The following summarises the week\u2019s calls by theme.</p>\n<p><strong>Health</strong> \u2013 a caller in Baidoa, Bay region, said he was living in an IDP camp, where there was severe drought and diseases were spreading, including whooping cough, measles, and more recently acute watery diarrhoea due to the water shortage. He added that the camp dwellers needed aid organizations to reach them with assistance.</p>\n<p><strong>Nutrition</strong> \u2013 two callers had questions for experts about malnutrition among the elderly. One in Jowhar said they had an elderly person sick and suffering from malnutrition, but local NGOs mainly provided services to children and mothers. He wanted to know how the elderly could access help. A female caller in Lower Shabelle asked what mothers could do if they were unable to breastfeed their babies for two years, as advocated by doctors.</p>\n<p><strong>IDPs</strong> \u2013 in Baidoa, a caller in Bula-Jameo said he was among people displaced from Busle. They had lost their livelihoods and were facing hardships and poverty. In Lower Shabelle region, a female caller in Marka said people had been displaced from El-Warego area and were facing hardships in an IDP camp. She wanted her message to be shared to get help.</p>\n<p><strong>Livestock</strong> \u2013 among callers seeking veterinary help, some were concerned by parasites affecting camels and goats. A female caller in Qansahley, Gedo region, said their livestock were thin and sick, despite being given fodder. She wanted to know how to make them gain weight. A pastoralist in Jarirow, Hiran region, said the drought conditions in the area had caused livestock to be sick. They wanted to know how to treat their herds.</p>\n<p><strong>Agriculture</strong> \u2013 farmers in Beletweyne, Balad, and Jowhar complained of aphids destroying crops such as maize, tomatoes, and animal fodder. Others descried pests they didn\u2019t name eating various crops and vegetables. One caller said there were no crops on his farmland due to water shortage and he wanted advice on how to grow crops with little water.</p>\n<p><strong>Drought and water shortage</strong> \u2013 the biggest number of callers were focused on this topic. There were callers from across Galmudug. A female caller in Bohol said the drought was severe. Among several from Dusamareb, a female caller asked for help due to the drought and water crisis. A caller in Do\u2019oley said they had no water or livestock fodder. In El-dhere, a caller said their farms had failed and they needed help drilling boreholes to serve their water needs. Female callers in Higlale and Mirisyale said they had no water and that livestock were struggling and they needed aid. In Hiran, a farmer in Beletweyne noted the concerning drop in the river Shabelle water level. A female caller said their livestock were dying and the only available water was brackish ground water contaminated with minerals. Another said they were tired of constantly searching for fodder for their livestock. Several called from Middle Shabelle citing tough conditions affecting people and livestock. In Lower Shabelle, a caller in Shalabood said they lacked water and were appealing for help. A caller in Wanlaweyn said a jerrycan of water cost 7,000 shillings. A caller in Warsheikh said they were facing drought and conflict in the area and needed humanitarian intervention. In Janale, two female callers living in camps said they had been displaced by drought and conflict in Awdhegle and were destitute without water and no jobs. In Gedo region, a caller in Bardera said their livestock were dying due to the drought. Several called from Garbaharey citing challenges induced by severe drought. A caller in Luq appealed for food and water aid from agencies. Several callers from other unspecified Jubbaland locations cited hardships affecting people and killing livestock. Two females called from Ethiopia\u2019s Somali Region, including one in Ferfer, citing dead or dying livestock, lack of food, and appealing for aid.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-9-jan-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "AL",
+    "name": "Albania",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AD",
+    "name": "Andorra",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AE",
+    "name": "United Arab Emirates",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AR",
+    "name": "Argentina",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AM",
+    "name": "Armenia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AS",
+    "name": "American Samoa",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AQ",
+    "name": "Antarctica",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TF",
+    "name": "French Southern and Antarctic Lands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AG",
+    "name": "Antigua and Barbuda",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AU",
+    "name": "Australia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AT",
+    "name": "Austria",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "AZ",
+    "name": "Azerbaijan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BI",
+    "name": "Burundi",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BE",
+    "name": "Belgium",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BJ",
+    "name": "Benin",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BF",
+    "name": "Burkina Faso",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+    "events": [
+      {
+        "title": "Burkina Faso : Aper\u00e7u humanitaire (octobre 2025)",
+        "summary": "<div class=\"tag country\">Countries: Burkina Faso, C\u00f4te d'Ivoire, Ghana, Mali, Niger, Togo</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/91/57916fd9-d651-4f4c-8827-287cdf87d9b2.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "BD",
+    "name": "Bangladesh",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BG",
+    "name": "Bulgaria",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BH",
+    "name": "Bahrain",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BS",
+    "name": "The Bahamas",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BA",
+    "name": "Bosnia and Herzegovina",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BL",
+    "name": "Saint Barthelemy",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SH",
+    "name": "Saint Helena",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BY",
+    "name": "Belarus",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BZ",
+    "name": "Belize",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BM",
+    "name": "Bermuda",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BO",
+    "name": "Bolivia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BQ",
+    "name": "Caribbean Netherlands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BR",
+    "name": "Brazil",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BB",
+    "name": "Barbados",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BN",
+    "name": "Brunei",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BT",
+    "name": "Bhutan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BV",
+    "name": "Bouvet Island",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "BW",
+    "name": "Botswana",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CF",
+    "name": "Central African Republic",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 14:14:07 +0000",
+    "events": [
+      {
+        "title": "CAR: STRATEGIE ABRIS ET ARTICLES MENAGERS ESSENTIELS (AME) Mars 2025",
+        "summary": "<div class=\"tag country\">Country: Central African Republic</div>\n                                      <div class=\"tag source\">Source: Shelter Cluster</div>\n                                          <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/43/4c/434c0382-4874-4cc4-9fde-52b24e2e1e10.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p>La r\u00e9publique centrafricaine (RCA) est marqu\u00e9e par une crise chronique complexe rythm\u00e9e par des violences et affrontements arm\u00e9s pour le contr\u00f4le du territoire et des ressources. Bien que beaucoup d\u2019efforts ont \u00e9t\u00e9 consentis par le gouvernement et les acteurs humanitaires, le pays reste encore loin de l\u2019instauration d\u2019une paix durable. A cette situation s\u2019ajoute les d\u00e9sastres li\u00e9s aux inondations ou incendies qui fragilisent davantage les populations d\u00e9j\u00e0 confront\u00e9es \u00e0 des d\u00e9fis structurels pr\u00e9existants.<br />\nLes conflits et catastrophes (inondations, incendies) ont entra\u00een\u00e9 le d\u00e9placement d\u2019environ 469.342 personnes au 31 d\u00e9cembre 2024 \u00e0 l\u2019\u00e9chelle nationale dont 392 235 install\u00e9es parmi les communaut\u00e9s d\u2019accueil et 77 107 h\u00e9berg\u00e9s dans 76 sites et lieux de regroupement spontan\u00e9s (CMP, d\u00e9cembre 2024)1. Au cours de l\u2019ann\u00e9e 2024 (de janvier \u00e0 d\u00e9cembre), plus de 220 000 personnes ont \u00e9t\u00e9 affect\u00e9es par des chocs (111 alertes) rapport\u00e9s par le m\u00e9canisme de r\u00e9ponse rapide (Rapid Response Mechanism, RRM). La partie Nord-Ouest du pays (Ouham et Ouham-Pend\u00e9) restent la plus affect\u00e9e en concentrant plus de 57% des personnes ayant effectu\u00e9 un d\u00e9placement forc\u00e9 \u00e0 la suite d\u2019un choc en 2024. Environ 67% des alertes sont li\u00e9es aux violences, 20% aux d\u00e9sastres et 13% aux retours de populations2.<br />\nLes mouvements de populations engendr\u00e9s par l\u2019ins\u00e9curit\u00e9 et les catastrophes naturelles entra\u00eenent des cons\u00e9quences humanitaires pr\u00e9occupantes en termes d\u2019abris et d\u2019articles non-alimentaires. Le Multi-Sector Needs Assessment (MSNA) montre que 17% des personnes affect\u00e9es vivent dans des abris inad\u00e9quats avec des d\u00e9t\u00e9riorations tr\u00e8s avanc\u00e9es. Ce pourcentage atteint presque le quart des m\u00e9nages (25%) dans les pr\u00e9fectures d\u2019Ouham, Ouham-Fafa, Nana-Gribizi et Vakaga. D\u2019autre part, la MSNA souligne aussi que 46% des PDIs sur sites vivent dans des abris d\u2019urgence obsol\u00e8tes et d\u00e9t\u00e9rior\u00e9s n\u00e9cessitant un renouvellement r\u00e9gulier pour les prot\u00e9ger contre les intemp\u00e9ries. D\u2019autre part, les nouveaux chocs engendrent aussi des besoins tr\u00e8s importants en Articles M\u00e9nagers Essentiels (AME) car les m\u00e9nages abandonnent leurs biens (parfois pill\u00e9s) dans leur zone d\u2019origine et ont besoins d\u2019articles minimums pour s\u2019installer et survivre dans leurs villages d\u2019accueil.</p>\n<p>Les nouveaux d\u00e9placements coexistent avec les retours de populations dans les zones propices au retour apr\u00e8s le retrait des groupes arm\u00e9s et la reprise du contr\u00f4le par les forces de d\u00e9fense et de s\u00e9curit\u00e9. Au moins 130.000 personnes retourn\u00e9es ont \u00e9t\u00e9 r\u00e9pertori\u00e9es entre janvier et ao\u00fbt 2024 (CMP). De plus, les enqu\u00eates sur les intentions futures des PDIs men\u00e9es par la DTM montrent qu\u2019au moins 80% des m\u00e9nages d\u00e9plac\u00e9s sur sites et en familles d\u2019accueil ont l\u2019intention de retourner dans leur zone d\u2019origine, se relocaliser ou s\u2019int\u00e9grer localement et durablement dans leur lieu d\u2019accueil. Ce contexte induit le besoin d\u2019accompagnement progressif des PDIs les plus vuln\u00e9rables pour le retour ou la relocalisation afin de d\u00e9congestionner et fermer progressivement les sites de d\u00e9plac\u00e9s encore actifs dans le pays. Ce besoin est \u00e9galement pr\u00e9cipit\u00e9 par les risques d\u2019\u00e9viction croissants auxquels environ le quart des PDI (23%) sont confront\u00e9s dans 13 sites sur 76. Ces sites sont localis\u00e9s dans les pr\u00e9fectures de Ouaka, Basse-Kotto, Ouham, Vakaga et Ouham-Pend\u00e9. Les abris constituent le besoin prioritaire pour appuyer le retour ou l\u2019int\u00e9gration locale de ces populations afin de les aider \u00e0 vivre dans des conditions plus dignes et d\u00e9congestionner progressivement les sites.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/central-african-republic/strategie-abris-et-articles-menagers-essentiels-ame-mars-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 14:14:07 +0000",
+        "topic": "economy"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "CA",
+    "name": "Canada",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CH",
+    "name": "Switzerland",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CL",
+    "name": "Chile",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CN",
+    "name": "China",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+    "events": [
+      {
+        "title": "Trump says US needs to 'own' Greenland to prevent Russia and China from taking it",
+        "summary": "We will do it \"the easy way\" or \"the hard way\", he said, but Denmark says the territory is not for sale.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "CI",
+    "name": "Ivory Coast",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+    "events": [
+      {
+        "title": "Burkina Faso : Aper\u00e7u humanitaire (octobre 2025)",
+        "summary": "<div class=\"tag country\">Countries: Burkina Faso, C\u00f4te d'Ivoire, Ghana, Mali, Niger, Togo</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/91/57916fd9-d651-4f4c-8827-287cdf87d9b2.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "CM",
+    "name": "Cameroon",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 15:57:01 +0000",
+    "events": [
+      {
+        "title": "Cameroon: Location Map (2026)",
+        "summary": "<div class=\"tag country\">Country: Cameroon</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                            <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/21/e2/21e24a99-f863-4aae-b90a-d46e48e5c388.png\" /></p>\n                        <p>Please refer to the attached Map.</p>",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/map/cameroon/cameroon-location-map-2026"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/cameroon/cameroon-operational-presence-3w-who-does-what-where-january-september-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 15:57:01 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "CD",
+    "name": "Democratic Republic of the Congo",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CG",
+    "name": "Republic of the Congo",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CK",
+    "name": "Cook Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CO",
+    "name": "Colombia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 06:02:31 GMT",
+    "events": [
+      {
+        "title": "Colombia sees 'real threat' of US military action, president tells BBC",
+        "summary": "Gustavo Petro tells the BBC's Ione Wells that the United States is treating other nations as part of a US \"empire\", after Trump threatened Colombia with military action.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/cwygjvkvpgro?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 06:02:31 GMT",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "KM",
+    "name": "Comoros",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CV",
+    "name": "Cabo Verde",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CR",
+    "name": "Costa Rica",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CU",
+    "name": "Cuba",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CW",
+    "name": "Cura\u00e7ao",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CX",
+    "name": "Christmas Island",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KY",
+    "name": "Cayman Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CY",
+    "name": "Cyprus",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "CZ",
+    "name": "Czechia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "DE",
+    "name": "Germany",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "DJ",
+    "name": "Djibouti",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "DM",
+    "name": "Dominica",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "DK",
+    "name": "Denmark",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+    "events": [
+      {
+        "title": "Trump says US needs to 'own' Greenland to prevent Russia and China from taking it",
+        "summary": "We will do it \"the easy way\" or \"the hard way\", he said, but Denmark says the territory is not for sale.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "DO",
+    "name": "Dominican Republic",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "DZ",
+    "name": "Algeria",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+    "events": [
+      {
+        "title": "AFCON 2025: Nigeria face Osimhen and bonus questions ahead of Algeria clash",
+        "summary": "Nigeria are dealing with reports of unpaid bonuses and Victor Osimhen spat before facing Algeria in AFCON quarterfinal.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/sports/2026/1/9/nigeria-coach-steers-clear-of-osimhen-fall-out-and-unpaid-bonuses-rumours?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "EC",
+    "name": "Ecuador",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "EG",
+    "name": "Egypt",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ER",
+    "name": "Eritrea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "EH",
+    "name": "Western Sahara",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ES",
+    "name": "Spain",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "EE",
+    "name": "Estonia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ET",
+    "name": "Ethiopia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+    "events": [
+      {
+        "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 9 Jan 2026",
+        "summary": "<div class=\"tag country\">Country: Somalia</div>\n                                      <div class=\"tag source\">Source: Radio Ergo</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/2d/0e2d0c94-cc88-4430-85a4-f6332b92af29.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Brief Analysis</strong></p>\n<p>This is our first report of the new year, based on the collection of calls recorded on Radio Ergo\u2019s toll-free platform in the week 1-7 January 2026. The majority of callers spoke about the hardships they are experiencing as a result of the ongoing drought, many of them describing extreme conditions with no water, lack of food and livestock fodder, dried up farms, and dead or sick livestock. Some callers indicated losing livelihoods and driven into destitution after being displaced by conflict. Farmers particularly in Hirshabelle areas complained of aphid attacks on their crops. The majority of calls overall came from central regions and southern regions. (There appears to have been a technical issue on the platform during the week limiting calls from northern regions \u2013 we are looking into this).</p>\n<p>The Radio Ergo platform is open to audiences across the country, many of whom call to share their daily lives and livelihoods challenges, whilst others engage with some of the thematic programmes we broadcast involving experts on health, farming, livestock, environment, mental health, and nutrition.</p>\n<p>We produce and share these weekly analysis reports in order to connect audiences (local communities) with a wider network of relevant stakeholders. The following summarises the week\u2019s calls by theme.</p>\n<p><strong>Health</strong> \u2013 a caller in Baidoa, Bay region, said he was living in an IDP camp, where there was severe drought and diseases were spreading, including whooping cough, measles, and more recently acute watery diarrhoea due to the water shortage. He added that the camp dwellers needed aid organizations to reach them with assistance.</p>\n<p><strong>Nutrition</strong> \u2013 two callers had questions for experts about malnutrition among the elderly. One in Jowhar said they had an elderly person sick and suffering from malnutrition, but local NGOs mainly provided services to children and mothers. He wanted to know how the elderly could access help. A female caller in Lower Shabelle asked what mothers could do if they were unable to breastfeed their babies for two years, as advocated by doctors.</p>\n<p><strong>IDPs</strong> \u2013 in Baidoa, a caller in Bula-Jameo said he was among people displaced from Busle. They had lost their livelihoods and were facing hardships and poverty. In Lower Shabelle region, a female caller in Marka said people had been displaced from El-Warego area and were facing hardships in an IDP camp. She wanted her message to be shared to get help.</p>\n<p><strong>Livestock</strong> \u2013 among callers seeking veterinary help, some were concerned by parasites affecting camels and goats. A female caller in Qansahley, Gedo region, said their livestock were thin and sick, despite being given fodder. She wanted to know how to make them gain weight. A pastoralist in Jarirow, Hiran region, said the drought conditions in the area had caused livestock to be sick. They wanted to know how to treat their herds.</p>\n<p><strong>Agriculture</strong> \u2013 farmers in Beletweyne, Balad, and Jowhar complained of aphids destroying crops such as maize, tomatoes, and animal fodder. Others descried pests they didn\u2019t name eating various crops and vegetables. One caller said there were no crops on his farmland due to water shortage and he wanted advice on how to grow crops with little water.</p>\n<p><strong>Drought and water shortage</strong> \u2013 the biggest number of callers were focused on this topic. There were callers from across Galmudug. A female caller in Bohol said the drought was severe. Among several from Dusamareb, a female caller asked for help due to the drought and water crisis. A caller in Do\u2019oley said they had no water or livestock fodder. In El-dhere, a caller said their farms had failed and they needed help drilling boreholes to serve their water needs. Female callers in Higlale and Mirisyale said they had no water and that livestock were struggling and they needed aid. In Hiran, a farmer in Beletweyne noted the concerning drop in the river Shabelle water level. A female caller said their livestock were dying and the only available water was brackish ground water contaminated with minerals. Another said they were tired of constantly searching for fodder for their livestock. Several called from Middle Shabelle citing tough conditions affecting people and livestock. In Lower Shabelle, a caller in Shalabood said they lacked water and were appealing for help. A caller in Wanlaweyn said a jerrycan of water cost 7,000 shillings. A caller in Warsheikh said they were facing drought and conflict in the area and needed humanitarian intervention. In Janale, two female callers living in camps said they had been displaced by drought and conflict in Awdhegle and were destitute without water and no jobs. In Gedo region, a caller in Bardera said their livestock were dying due to the drought. Several called from Garbaharey citing challenges induced by severe drought. A caller in Luq appealed for food and water aid from agencies. Several callers from other unspecified Jubbaland locations cited hardships affecting people and killing livestock. Two females called from Ethiopia\u2019s Somali Region, including one in Ferfer, citing dead or dying livestock, lack of food, and appealing for aid.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-9-jan-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "FI",
+    "name": "Finland",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "FJ",
+    "name": "Fiji",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:33:10 +0000",
+    "events": [
+      {
+        "title": "Mozambique | Flood: Early Action Protocol Activation Operation \u2116 MDRMZ022, 28 December 2025",
+        "summary": "<div class=\"tag country\">Country: Mozambique</div>\n                                      <div class=\"tag source\">Source: International Federation of Red Cross and Red Crescent Societies</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/01/7c/017cb8a8-4c97-5733-a4a3-9ca62795336e.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p>CVM has activated its Early Action Protocol for Flood.<br />\nBased on hydro-meteorological forecasts issued by the National Institute of Meteorology (INAM) and the National Directorate for Water Resources Management (DNGRH), heavy rainfall accompanied by thunderstorms and strong winds is expected in the coming days, with significant impacts anticipated in Zamb\u00e9zia Province, particularly in low-lying and flood-prone areas.</p>\n<p>According to the National Emergency Operations Centre (CENOE), these conditions are expected to further aggravate the flood situation in several river basins, including the Licungo River Basin, increasing the risk of inundation, damage to housing and critical infrastructure, disruption of basic services, and loss of livelihoods. People living in flood-prone zones remain especially vulnerable, notably children, women, the elderly, and persons with disabilities.</p>\n<p>Following the confirmation of the hydrological and meteorological forecasts, the official decision confirming that the flood triggers had been reached, as well as the formal announcement of the activation of Anticipatory Action, was made by the National Institute for Disaster Management and Risk Reduction (INGD) on 27 December 2025 at 18:00 hours.</p>\n<p>In response to this evolving scenario, and in line with the decision taken by the national authorities, the Mozambique Red Cross (CVM) has activated its Floods Early Action Protocol.</p>\n<p>The CVM early action activities will specifically focus on communities impacted by the Licungo River Basin, with particular emphasis on Maganja da Costa District, Zamb\u00e9zia Province, identified as one of the most exposed areas to flooding. Current estimates indicate that approximately 37,033 people are at risk, within the Licungo Basin, including potential impacts on households, schools and health facilities.</p>\n<p>The anticipatory action will be implemented over a period of five days, starting on 28 December 2025, and are expected to reach approximately 10,000 individuals, including children, women, the elderly, and people with disabilities. Planned interventions include the dissemination of early warning messages, community sensitisation and evacuation preparedness, protection of essential household assets, distribution of pre-positioned relief items, targeting the most vulnerable populations. These measures aim to reduce loss of life, minimise humanitarian impacts, and enhance community resilience ahead of potential flooding events.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/mozambique/mozambique-flood-early-action-protocol-activation-operation-no-mdrmz022-28-december-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:33:10 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "FK",
+    "name": "Falkland Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "FR",
+    "name": "France",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "FO",
+    "name": "Faroe Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "FM",
+    "name": "Federated States of Micronesia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GA",
+    "name": "Gabon",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GB",
+    "name": "United Kingdom",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GE",
+    "name": "Georgia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GG",
+    "name": "Guernsey",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GH",
+    "name": "Ghana",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+    "events": [
+      {
+        "title": "Burkina Faso : Aper\u00e7u humanitaire (octobre 2025)",
+        "summary": "<div class=\"tag country\">Countries: Burkina Faso, C\u00f4te d'Ivoire, Ghana, Mali, Niger, Togo</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/91/57916fd9-d651-4f4c-8827-287cdf87d9b2.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "GI",
+    "name": "Gibraltar",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GN",
+    "name": "Guinea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GP",
+    "name": "Guadeloupe",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GM",
+    "name": "Gambia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GW",
+    "name": "Guinea-Bissau",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GQ",
+    "name": "Equatorial Guinea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GR",
+    "name": "Greece",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GD",
+    "name": "Grenada",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GL",
+    "name": "Greenland",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+    "events": [
+      {
+        "title": "Trump says US needs to 'own' Greenland to prevent Russia and China from taking it",
+        "summary": "We will do it \"the easy way\" or \"the hard way\", he said, but Denmark says the territory is not for sale.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+        "topic": "humanitarian"
+      },
+      {
+        "title": "Greenland should \u2018take the lead\u2019 in talks with US, foreign minister says",
+        "summary": "Vivian Motzfeldt says she has &#039;good expectations&#039; for talks with Marco Rubio amid US threats to take over Greenland.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/greenland-should-take-the-lead-in-talks-with-us-foreign-minister-says?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 21:02:26 +0000",
+        "topic": "diplomacy"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "GT",
+    "name": "Guatemala",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GF",
+    "name": "French Guiana",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GU",
+    "name": "Guam",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GY",
+    "name": "Guyana",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HK",
+    "name": "Hong Kong S.A.R.",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HN",
+    "name": "Honduras",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HR",
+    "name": "Croatia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HT",
+    "name": "Haiti",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "HU",
+    "name": "Hungary",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ID",
+    "name": "Indonesia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:29:11 +0000",
+    "events": [
+      {
+        "title": "Indonesia - Floods, update (BNPB, BMKG) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: Indonesia</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>On 7 January 2026, a severe flood event following heavy rain affected North Halmahera regency, North Maluku province, central-eastern Indonesia, resulting in fatalities, displacement, and infrastructure damage.</li>\n<li>According to the National Agency for Disaster Countermeasure (BNPB), as of 8 January, one person was killed, more than 282 people were evacuated from Tegowa village, and a total of 5 333 people have been affected.</li>\n<li>Additionally, 20 housing units are severely damaged, three units are moderately or slightly damaged, and a total of 1 216 housing units have been flooded. Several bridges and road access have been cut off in multiple locations.</li>\n<li>On 9-11 January, cloudy skies with light rain are expected across the affected province.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/indonesia/indonesia-floods-update-bnpb-bmkg-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:11 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "IM",
+    "name": "Isle of Man",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IN",
+    "name": "India",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IO",
+    "name": "British Indian Ocean Territory",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IE",
+    "name": "Ireland",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IR",
+    "name": "Iran",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 16:24:58 +0000",
+    "events": [
+      {
+        "title": "Chinese, Russian and Iranian warships arrive for drills in South Africa",
+        "summary": "Naval exercises come as tensions run high after US military intervention in Venezuela, seizures of several oil tankers.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/chinese-russian-and-iranian-warships-arrive-for-drills-in-south-africa?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:24:58 +0000",
+        "topic": "security"
+      },
+      {
+        "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 9 Jan 2026",
+        "summary": "<div class=\"tag country\">Country: Somalia</div>\n                                      <div class=\"tag source\">Source: Radio Ergo</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/2d/0e2d0c94-cc88-4430-85a4-f6332b92af29.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Brief Analysis</strong></p>\n<p>This is our first report of the new year, based on the collection of calls recorded on Radio Ergo\u2019s toll-free platform in the week 1-7 January 2026. The majority of callers spoke about the hardships they are experiencing as a result of the ongoing drought, many of them describing extreme conditions with no water, lack of food and livestock fodder, dried up farms, and dead or sick livestock. Some callers indicated losing livelihoods and driven into destitution after being displaced by conflict. Farmers particularly in Hirshabelle areas complained of aphid attacks on their crops. The majority of calls overall came from central regions and southern regions. (There appears to have been a technical issue on the platform during the week limiting calls from northern regions \u2013 we are looking into this).</p>\n<p>The Radio Ergo platform is open to audiences across the country, many of whom call to share their daily lives and livelihoods challenges, whilst others engage with some of the thematic programmes we broadcast involving experts on health, farming, livestock, environment, mental health, and nutrition.</p>\n<p>We produce and share these weekly analysis reports in order to connect audiences (local communities) with a wider network of relevant stakeholders. The following summarises the week\u2019s calls by theme.</p>\n<p><strong>Health</strong> \u2013 a caller in Baidoa, Bay region, said he was living in an IDP camp, where there was severe drought and diseases were spreading, including whooping cough, measles, and more recently acute watery diarrhoea due to the water shortage. He added that the camp dwellers needed aid organizations to reach them with assistance.</p>\n<p><strong>Nutrition</strong> \u2013 two callers had questions for experts about malnutrition among the elderly. One in Jowhar said they had an elderly person sick and suffering from malnutrition, but local NGOs mainly provided services to children and mothers. He wanted to know how the elderly could access help. A female caller in Lower Shabelle asked what mothers could do if they were unable to breastfeed their babies for two years, as advocated by doctors.</p>\n<p><strong>IDPs</strong> \u2013 in Baidoa, a caller in Bula-Jameo said he was among people displaced from Busle. They had lost their livelihoods and were facing hardships and poverty. In Lower Shabelle region, a female caller in Marka said people had been displaced from El-Warego area and were facing hardships in an IDP camp. She wanted her message to be shared to get help.</p>\n<p><strong>Livestock</strong> \u2013 among callers seeking veterinary help, some were concerned by parasites affecting camels and goats. A female caller in Qansahley, Gedo region, said their livestock were thin and sick, despite being given fodder. She wanted to know how to make them gain weight. A pastoralist in Jarirow, Hiran region, said the drought conditions in the area had caused livestock to be sick. They wanted to know how to treat their herds.</p>\n<p><strong>Agriculture</strong> \u2013 farmers in Beletweyne, Balad, and Jowhar complained of aphids destroying crops such as maize, tomatoes, and animal fodder. Others descried pests they didn\u2019t name eating various crops and vegetables. One caller said there were no crops on his farmland due to water shortage and he wanted advice on how to grow crops with little water.</p>\n<p><strong>Drought and water shortage</strong> \u2013 the biggest number of callers were focused on this topic. There were callers from across Galmudug. A female caller in Bohol said the drought was severe. Among several from Dusamareb, a female caller asked for help due to the drought and water crisis. A caller in Do\u2019oley said they had no water or livestock fodder. In El-dhere, a caller said their farms had failed and they needed help drilling boreholes to serve their water needs. Female callers in Higlale and Mirisyale said they had no water and that livestock were struggling and they needed aid. In Hiran, a farmer in Beletweyne noted the concerning drop in the river Shabelle water level. A female caller said their livestock were dying and the only available water was brackish ground water contaminated with minerals. Another said they were tired of constantly searching for fodder for their livestock. Several called from Middle Shabelle citing tough conditions affecting people and livestock. In Lower Shabelle, a caller in Shalabood said they lacked water and were appealing for help. A caller in Wanlaweyn said a jerrycan of water cost 7,000 shillings. A caller in Warsheikh said they were facing drought and conflict in the area and needed humanitarian intervention. In Janale, two female callers living in camps said they had been displaced by drought and conflict in Awdhegle and were destitute without water and no jobs. In Gedo region, a caller in Bardera said their livestock were dying due to the drought. Several called from Garbaharey citing challenges induced by severe drought. A caller in Luq appealed for food and water aid from agencies. Several callers from other unspecified Jubbaland locations cited hardships affecting people and killing livestock. Two females called from Ethiopia\u2019s Somali Region, including one in Ferfer, citing dead or dying livestock, lack of food, and appealing for aid.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-9-jan-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "IQ",
+    "name": "Iraq",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IS",
+    "name": "Iceland",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:55:32 +0000",
+    "events": [
+      {
+        "title": "Jamaica: Food Security Monitoring Impact of Hurricane Melissa\u2013 Two Months On",
+        "summary": "<div class=\"tag country\">Country: Jamaica</div>\n                                      <div class=\"tag source\">Source: World Food Programme</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/83/70/8370f464-1a76-4b2f-8a55-5bda6a736d8b.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Context</strong></p>\n<p>Hurricane Melissa made landfall in Jamaica on 28 October 2025 as a Category 5 storm, causing catastrophic damage across the country and marking the most powerful hurricane in the island\u2019s recorded history. The hurricane caused significant damage particularly in the western and north-western parishes. The storm triggered widespread flooding, landslides, and road blockages, crippling critical infrastructure including hospitals, schools, roads, and telecommunications networks.</p>\n<p>Following Hurricane Melissa, Real-Time Monitoring coverage was scaled up significantly\u2014from just over 500 observations before the event (January \u2013 October 2025) to over 2,500 calls post-event. This expansion greatly improves visibility on emerging trends, though results should still be considered indicative rather than fully representative at parish level until sample sizes grow further.</p>\n<p>It is also important to note that areas without mobile network coverage are not captured, and food insecurity rates may rise as connectivity improves and more households are reached. Despite these limitations, the current data already highlight the severe impact of the hurricane on food security and livelihoods, providing an early signal of needs across Jamaica.</p>\n<p><strong>HIGHLIGHTS</strong></p>\n<p>After Hurricane Melissa, short-term indicators (FCS and rCSI) improved slightly with emergency aid and market recovery, but FIES worsened, reflecting persistent worry and severe experiences such as skipping meals. At the same time, households shifted toward more harmful coping strategies\u2014emergency measures nearly doubled and remain concentrated in the west and north-west\u2014signaling livelihood stress and the need for sustained, multi-dimensional support beyond immediate food assistance.</p>\n<p>Insufficient food consumption surged from 7% pre-Melissa to 30% in November before easing to 23% in December, still far above pre-crisis levels. The worst impacts were seen in rural western and central parishes such as Clarendon, Saint Elizabeth, Hanover, Manchester and St Mary, where rates exceeded 30%. Diet quality also deteriorated sharply, with steep declines in fruits and vegetables and other nutrient-dense foods, while reliance on energy-dense food (sugar and fat) increased.</p>\n<p>High coping (rCSI\u226519) more than doubled nationally after Hurricane Melissa, peaking at 36% in November before slowly declining to 30% in December, with the worst stress and largest increases concentrated in rural western and northern parishes such as Westmoreland, Trelawny, Saint Elizabeth, and Hanover. Moderate or severe food insecurity rose sharply from 33% pre-Melissa to 54% in December, two months after the hurricane, with the highest levels in rural western and northern parishes such as, Westmoreland, Saint Ann, Trelawny, Saint Elizabeth, and Hanover\u2014indicating sustained deterioration and acute vulnerability.</p>\n<p>After Melissa, coping shifted toward severity: no coping fell from 32% to 22%, emergency nearly doubled to 19% (+9 pp) and crisis edged up to 27%, while stress strategies stayed roughly stable\u2014indicating greater reliance on asset-depleting measures. Severity peaked in weeks 3\u20136 (crisis approx. 30%, emergency 22\u201323%) and partially eased by week 8. In December crisis declined to 25% but emergency rose to 20%, signaling persistent livelihood pressure and risk of irreversible asset loss. Post-Melissa, the burden of severe coping is concentrated in the west/north-west.</p>\n<p>Market access deteriorated sharply after Melissa\u201453% of households faced challenges, peaking mid-month and remaining high into weeks 7\u20138\u2014while fresh foods recovered slowly, staples and hygiene rebounded quickly, and medicines showed volatile availability. The worst access constraints are concentrated in the west and north-west (e.g., Hanover, Trelawny, needs across Jamaica. Westmoreland, Saint Elizabeth).</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/jamaica/food-security-monitoring-impact-hurricane-melissa-two-months"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:55:32 +0000",
+        "topic": "energy"
+      },
+      {
+        "title": "Philippines - Volcanic eruption, update (PHIVOLCS, ADINet, media) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: Philippines</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>After the magmatic eruption, ashfall, pyroclastic flow and rockfall events occurred on 1 January and 6 January at the Mayon volcano (Albay province, Bicol region, south-eastern Luzon Island), and the number of displaced people increased.</li>\n<li>According to the Philippine Institute of Volcanology and Seismology (PHIVOLCS), as of 9 January, the volcano Alert Level stands at 3 (intensified unrest).</li>\n<li>The ASEAN Disaster Information Network (ADINet) reports, as of the same date, 3 602 currently displaced people across 13 evacuation centres. The entry into the 6 km radius Permanent Danger Zone (PDZ) is still strictly prohibited, as issued by PHIVOLCS.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/philippines/philippines-volcanic-eruption-update-phivolcs-adinet-media-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:16 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "IL",
+    "name": "Israel",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "IT",
+    "name": "Italy",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "JM",
+    "name": "Jamaica",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:55:32 +0000",
+    "events": [
+      {
+        "title": "Jamaica: Food Security Monitoring Impact of Hurricane Melissa\u2013 Two Months On",
+        "summary": "<div class=\"tag country\">Country: Jamaica</div>\n                                      <div class=\"tag source\">Source: World Food Programme</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/83/70/8370f464-1a76-4b2f-8a55-5bda6a736d8b.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Context</strong></p>\n<p>Hurricane Melissa made landfall in Jamaica on 28 October 2025 as a Category 5 storm, causing catastrophic damage across the country and marking the most powerful hurricane in the island\u2019s recorded history. The hurricane caused significant damage particularly in the western and north-western parishes. The storm triggered widespread flooding, landslides, and road blockages, crippling critical infrastructure including hospitals, schools, roads, and telecommunications networks.</p>\n<p>Following Hurricane Melissa, Real-Time Monitoring coverage was scaled up significantly\u2014from just over 500 observations before the event (January \u2013 October 2025) to over 2,500 calls post-event. This expansion greatly improves visibility on emerging trends, though results should still be considered indicative rather than fully representative at parish level until sample sizes grow further.</p>\n<p>It is also important to note that areas without mobile network coverage are not captured, and food insecurity rates may rise as connectivity improves and more households are reached. Despite these limitations, the current data already highlight the severe impact of the hurricane on food security and livelihoods, providing an early signal of needs across Jamaica.</p>\n<p><strong>HIGHLIGHTS</strong></p>\n<p>After Hurricane Melissa, short-term indicators (FCS and rCSI) improved slightly with emergency aid and market recovery, but FIES worsened, reflecting persistent worry and severe experiences such as skipping meals. At the same time, households shifted toward more harmful coping strategies\u2014emergency measures nearly doubled and remain concentrated in the west and north-west\u2014signaling livelihood stress and the need for sustained, multi-dimensional support beyond immediate food assistance.</p>\n<p>Insufficient food consumption surged from 7% pre-Melissa to 30% in November before easing to 23% in December, still far above pre-crisis levels. The worst impacts were seen in rural western and central parishes such as Clarendon, Saint Elizabeth, Hanover, Manchester and St Mary, where rates exceeded 30%. Diet quality also deteriorated sharply, with steep declines in fruits and vegetables and other nutrient-dense foods, while reliance on energy-dense food (sugar and fat) increased.</p>\n<p>High coping (rCSI\u226519) more than doubled nationally after Hurricane Melissa, peaking at 36% in November before slowly declining to 30% in December, with the worst stress and largest increases concentrated in rural western and northern parishes such as Westmoreland, Trelawny, Saint Elizabeth, and Hanover. Moderate or severe food insecurity rose sharply from 33% pre-Melissa to 54% in December, two months after the hurricane, with the highest levels in rural western and northern parishes such as, Westmoreland, Saint Ann, Trelawny, Saint Elizabeth, and Hanover\u2014indicating sustained deterioration and acute vulnerability.</p>\n<p>After Melissa, coping shifted toward severity: no coping fell from 32% to 22%, emergency nearly doubled to 19% (+9 pp) and crisis edged up to 27%, while stress strategies stayed roughly stable\u2014indicating greater reliance on asset-depleting measures. Severity peaked in weeks 3\u20136 (crisis approx. 30%, emergency 22\u201323%) and partially eased by week 8. In December crisis declined to 25% but emergency rose to 20%, signaling persistent livelihood pressure and risk of irreversible asset loss. Post-Melissa, the burden of severe coping is concentrated in the west/north-west.</p>\n<p>Market access deteriorated sharply after Melissa\u201453% of households faced challenges, peaking mid-month and remaining high into weeks 7\u20138\u2014while fresh foods recovered slowly, staples and hygiene rebounded quickly, and medicines showed volatile availability. The worst access constraints are concentrated in the west and north-west (e.g., Hanover, Trelawny, needs across Jamaica. Westmoreland, Saint Elizabeth).</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/jamaica/food-security-monitoring-impact-hurricane-melissa-two-months"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:55:32 +0000",
+        "topic": "energy"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "JE",
+    "name": "Jersey",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "JO",
+    "name": "Jordan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "JP",
+    "name": "Japan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KZ",
+    "name": "Kazakhstan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KE",
+    "name": "Kenya",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KG",
+    "name": "Kyrgyzstan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KH",
+    "name": "Cambodia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:24:26 +0000",
+    "events": [
+      {
+        "title": "Cambodia Situation Report 14: Cambodia-Thailand Border Situation",
+        "summary": "<div class=\"tag country\">Countries: Cambodia, Thailand</div>\n                                      <div class=\"tag source\">Sources: DanChurchAid, World Food Programme</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/2d/ce2d3884-af89-49db-b447-5a598ecb4ca0.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><em>This report is produced by the Humanitarian Response Forum (HRF) in collaboration with humanitarian partners. It covers the period from 3rd \u2013 9th January 2026.</em></p>\n<h2>Situation and Impact</h2>\n<p>More than four weeks into the current phase of the Cambodia\u2013Thailand border crisis, the operating environment remains fluid, with reduced large-scale movements compared to the peak of displacement in December. Returns have started in some areas, but conditions vary by location. Response planning therefore covers both ongoing displacement and phased returns, guided by safety, access and the availability of basic services.</p>\n<p>As of 8th January 2026, the National Committee for Disaster Management (NCDM) reported that around <strong>475,000 displaced people have returned to their places of origin</strong>. Approximately 173,776people remain displaced, including 91,170 women and 56,757 children of whom 64,018 are residing in 127 sites and 109,758 people are staying with host community/relatives. An unknown number from these displaced are unlikely to return any time soon due to contamination of their habitats from UXOs, house damaged, and insecurity. Needs remain significant among households still in displacement, particularly in relation to safe water, sanitation and hygiene, food assistance, shelter and non-food items, primary health care and essential medicines, and protection services, including support for children, women, older people and persons with disabilities.</p>\n<p><strong>At the same time, return movements are generating a parallel set of needs in areas of origin</strong>. Households are reporting gaps linked to disrupted services and lost assets, including damage to housing, limited access to safe water and sanitation, constrained access to health and education services, and reduced livelihood opportunities. Immediate priorities include ensuring safe and dignified returns through clear information and access to services, restoring basic infrastructure where feasible, and sustaining targeted assistance for the most vulnerable families both in evacuation centres and in return areas, including psychosocial support and strengthened community-based protection and referral mechanisms.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/cambodia/cambodia-situation-report-14-cambodia-thailand-border-situation"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:24:26 +0000",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "KI",
+    "name": "Kiribati",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KN",
+    "name": "Saint Kitts and Nevis",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KR",
+    "name": "South Korea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "XK",
+    "name": "Kosovo",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KW",
+    "name": "Kuwait",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LA",
+    "name": "Laos",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LB",
+    "name": "Lebanon",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LR",
+    "name": "Liberia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LY",
+    "name": "Libya",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LC",
+    "name": "Saint Lucia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LI",
+    "name": "Liechtenstein",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LK",
+    "name": "Sri Lanka",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LS",
+    "name": "Lesotho",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LT",
+    "name": "Lithuania",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LU",
+    "name": "Luxembourg",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "LV",
+    "name": "Latvia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MO",
+    "name": "Macao S.A.R",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MF",
+    "name": "Saint Martin",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MA",
+    "name": "Morocco",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MC",
+    "name": "Monaco",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MD",
+    "name": "Moldova",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MG",
+    "name": "Madagascar",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MV",
+    "name": "Maldives",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MX",
+    "name": "Mexico",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MH",
+    "name": "Marshall Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MK",
+    "name": "North Macedonia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ML",
+    "name": "Mali",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+    "events": [
+      {
+        "title": "Burkina Faso : Aper\u00e7u humanitaire (octobre 2025)",
+        "summary": "<div class=\"tag country\">Countries: Burkina Faso, C\u00f4te d'Ivoire, Ghana, Mali, Niger, Togo</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/91/57916fd9-d651-4f4c-8827-287cdf87d9b2.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-9-jan-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "MT",
+    "name": "Malta",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MM",
+    "name": "Myanmar",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ME",
+    "name": "Montenegro",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MN",
+    "name": "Mongolia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MP",
+    "name": "Northern Mariana Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MZ",
+    "name": "Mozambique",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:33:10 +0000",
+    "events": [
+      {
+        "title": "Mozambique | Flood: Early Action Protocol Activation Operation \u2116 MDRMZ022, 28 December 2025",
+        "summary": "<div class=\"tag country\">Country: Mozambique</div>\n                                      <div class=\"tag source\">Source: International Federation of Red Cross and Red Crescent Societies</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/01/7c/017cb8a8-4c97-5733-a4a3-9ca62795336e.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p>CVM has activated its Early Action Protocol for Flood.<br />\nBased on hydro-meteorological forecasts issued by the National Institute of Meteorology (INAM) and the National Directorate for Water Resources Management (DNGRH), heavy rainfall accompanied by thunderstorms and strong winds is expected in the coming days, with significant impacts anticipated in Zamb\u00e9zia Province, particularly in low-lying and flood-prone areas.</p>\n<p>According to the National Emergency Operations Centre (CENOE), these conditions are expected to further aggravate the flood situation in several river basins, including the Licungo River Basin, increasing the risk of inundation, damage to housing and critical infrastructure, disruption of basic services, and loss of livelihoods. People living in flood-prone zones remain especially vulnerable, notably children, women, the elderly, and persons with disabilities.</p>\n<p>Following the confirmation of the hydrological and meteorological forecasts, the official decision confirming that the flood triggers had been reached, as well as the formal announcement of the activation of Anticipatory Action, was made by the National Institute for Disaster Management and Risk Reduction (INGD) on 27 December 2025 at 18:00 hours.</p>\n<p>In response to this evolving scenario, and in line with the decision taken by the national authorities, the Mozambique Red Cross (CVM) has activated its Floods Early Action Protocol.</p>\n<p>The CVM early action activities will specifically focus on communities impacted by the Licungo River Basin, with particular emphasis on Maganja da Costa District, Zamb\u00e9zia Province, identified as one of the most exposed areas to flooding. Current estimates indicate that approximately 37,033 people are at risk, within the Licungo Basin, including potential impacts on households, schools and health facilities.</p>\n<p>The anticipatory action will be implemented over a period of five days, starting on 28 December 2025, and are expected to reach approximately 10,000 individuals, including children, women, the elderly, and people with disabilities. Planned interventions include the dissemination of early warning messages, community sensitisation and evacuation preparedness, protection of essential household assets, distribution of pre-positioned relief items, targeting the most vulnerable populations. These measures aim to reduce loss of life, minimise humanitarian impacts, and enhance community resilience ahead of potential flooding events.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/mozambique/mozambique-flood-early-action-protocol-activation-operation-no-mdrmz022-28-december-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:33:10 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "MR",
+    "name": "Mauritania",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MS",
+    "name": "Montserrat",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MQ",
+    "name": "Martinique",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MU",
+    "name": "Mauritius",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MW",
+    "name": "Malawi",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "MY",
+    "name": "Malaysia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:29:13 +0000",
+    "events": [
+      {
+        "title": "Malaysia - Floods, update (ADINet, media, MET Malaysia) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: Malaysia</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>Since late December 2025, insular Malaysia (comprising the states of Sabah, Sarawak, and Selangor) has been experiencing severe flooding caused by persistent heavy rainfall, resulting in displacement and damage.</li>\n<li>According to the ASEAN Disaster Information Network (ADINet), as of 8 January, 1 224 people are displaced to nine evacuation centres in the cities of Beufort and Tenom, Sabah.</li>\n<li>Over the next 24 hours, moderate to heavy rainfall, accompanied by thunderstorms, will continue across Malaysia, particularly across the flood-affected regions in Borneo.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/malaysia/malaysia-floods-update-adinet-media-met-malaysia-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:13 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "YT",
+    "name": "Mayotte",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NA",
+    "name": "Namibia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NC",
+    "name": "New Caledonia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NE",
+    "name": "Niger",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+    "events": [
+      {
+        "title": "AFCON 2025: Nigeria face Osimhen and bonus questions ahead of Algeria clash",
+        "summary": "Nigeria are dealing with reports of unpaid bonuses and Victor Osimhen spat before facing Algeria in AFCON quarterfinal.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/sports/2026/1/9/nigeria-coach-steers-clear-of-osimhen-fall-out-and-unpaid-bonuses-rumours?traffic_source=rss"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/niger/niger-personnes-relevant-de-la-competence-du-hcr-31-decembre-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "NF",
+    "name": "Norfolk Island",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NG",
+    "name": "Nigeria",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+    "events": [
+      {
+        "title": "AFCON 2025: Nigeria face Osimhen and bonus questions ahead of Algeria clash",
+        "summary": "Nigeria are dealing with reports of unpaid bonuses and Victor Osimhen spat before facing Algeria in AFCON quarterfinal.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/sports/2026/1/9/nigeria-coach-steers-clear-of-osimhen-fall-out-and-unpaid-bonuses-rumours?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:09:13 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "NI",
+    "name": "Nicaragua",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NU",
+    "name": "Niue",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NL",
+    "name": "Netherlands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NO",
+    "name": "Norway",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NP",
+    "name": "Nepal",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NR",
+    "name": "Nauru",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "NZ",
+    "name": "New Zealand",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "OM",
+    "name": "Oman",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 19:48:29 +0000",
+    "events": [
+      {
+        "title": "Minnesotans mourn woman killed by ICE",
+        "summary": "People paid tribute to 37-year-old Renee Nicole Good, who was killed in her car by ICE agents in Minneapolis, Minnesota.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/1/9/minnesotans-mourn-woman-killed-by-ice?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 19:48:29 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "PK",
+    "name": "Pakistan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PA",
+    "name": "Panama",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PN",
+    "name": "Pitcairn Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PE",
+    "name": "Peru",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PH",
+    "name": "Philippines",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:29:16 +0000",
+    "events": [
+      {
+        "title": "Philippines - Volcanic eruption, update (PHIVOLCS, ADINet, media) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: Philippines</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>After the magmatic eruption, ashfall, pyroclastic flow and rockfall events occurred on 1 January and 6 January at the Mayon volcano (Albay province, Bicol region, south-eastern Luzon Island), and the number of displaced people increased.</li>\n<li>According to the Philippine Institute of Volcanology and Seismology (PHIVOLCS), as of 9 January, the volcano Alert Level stands at 3 (intensified unrest).</li>\n<li>The ASEAN Disaster Information Network (ADINet) reports, as of the same date, 3 602 currently displaced people across 13 evacuation centres. The entry into the 6 km radius Permanent Danger Zone (PDZ) is still strictly prohibited, as issued by PHIVOLCS.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/philippines/philippines-volcanic-eruption-update-phivolcs-adinet-media-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:16 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "PW",
+    "name": "Palau",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PG",
+    "name": "Papua New Guinea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PL",
+    "name": "Poland",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PR",
+    "name": "Puerto Rico",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "KP",
+    "name": "North Korea",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PT",
+    "name": "Portugal",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PY",
+    "name": "Paraguay",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PS",
+    "name": "Palestine",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "PF",
+    "name": "French Polynesia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "QA",
+    "name": "Qatar",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "RE",
+    "name": "R\u00e9union",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "RO",
+    "name": "Romania",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "RU",
+    "name": "Russia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+    "events": [
+      {
+        "title": "Trump says US needs to 'own' Greenland to prevent Russia and China from taking it",
+        "summary": "We will do it \"the easy way\" or \"the hard way\", he said, but Denmark says the territory is not for sale.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/c78vj5n7jg3o?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 22:27:47 GMT",
+        "topic": "humanitarian"
+      },
+      {
+        "title": "Chinese, Russian and Iranian warships arrive for drills in South Africa",
+        "summary": "Naval exercises come as tensions run high after US military intervention in Venezuela, seizures of several oil tankers.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/chinese-russian-and-iranian-warships-arrive-for-drills-in-south-africa?traffic_source=rss"
+          },
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/cgqe9kv9xxvo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:24:58 +0000",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 1,
+      "confidence": 0.7
+    }
+  },
+  {
+    "id": "RW",
+    "name": "Rwanda",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SA",
+    "name": "Saudi Arabia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SD",
+    "name": "Sudan",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 14:17:23 +0000",
+    "events": [
+      {
+        "title": "Sudan | Conflict and population displacement (December 2025) - DG ECHO Daily Map | 09/01/2026",
+        "summary": "<div class=\"tag country\">Country: Sudan</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ef/3b/ef3b0a5c-da30-5d5f-9336-5c1c0275446c.png\" /></p>\n                        <p>Please refer to the attached Map.</p>",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/map/sudan/sudan-conflict-and-population-displacement-december-2025-dg-echo-daily-map-09012026"
+          },
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/feed/view/en/story/2026/01/1166734"
+          },
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/feed/view/en/story/2026/01/1166730"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 14:17:23 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "SN",
+    "name": "Senegal",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SG",
+    "name": "Singapore",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "GS",
+    "name": "South Georgia and the Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SB",
+    "name": "Solomon Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SL",
+    "name": "Sierra Leone",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SV",
+    "name": "El Salvador",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SM",
+    "name": "San Marino",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SO",
+    "name": "Somalia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+    "events": [
+      {
+        "title": "Somalia: Radio Ergo Weekly Feedback Report, Issued: 9 Jan 2026",
+        "summary": "<div class=\"tag country\">Country: Somalia</div>\n                                      <div class=\"tag source\">Source: Radio Ergo</div>\n                                                                                                <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/0e/2d/0e2d0c94-cc88-4430-85a4-f6332b92af29.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><strong>Brief Analysis</strong></p>\n<p>This is our first report of the new year, based on the collection of calls recorded on Radio Ergo\u2019s toll-free platform in the week 1-7 January 2026. The majority of callers spoke about the hardships they are experiencing as a result of the ongoing drought, many of them describing extreme conditions with no water, lack of food and livestock fodder, dried up farms, and dead or sick livestock. Some callers indicated losing livelihoods and driven into destitution after being displaced by conflict. Farmers particularly in Hirshabelle areas complained of aphid attacks on their crops. The majority of calls overall came from central regions and southern regions. (There appears to have been a technical issue on the platform during the week limiting calls from northern regions \u2013 we are looking into this).</p>\n<p>The Radio Ergo platform is open to audiences across the country, many of whom call to share their daily lives and livelihoods challenges, whilst others engage with some of the thematic programmes we broadcast involving experts on health, farming, livestock, environment, mental health, and nutrition.</p>\n<p>We produce and share these weekly analysis reports in order to connect audiences (local communities) with a wider network of relevant stakeholders. The following summarises the week\u2019s calls by theme.</p>\n<p><strong>Health</strong> \u2013 a caller in Baidoa, Bay region, said he was living in an IDP camp, where there was severe drought and diseases were spreading, including whooping cough, measles, and more recently acute watery diarrhoea due to the water shortage. He added that the camp dwellers needed aid organizations to reach them with assistance.</p>\n<p><strong>Nutrition</strong> \u2013 two callers had questions for experts about malnutrition among the elderly. One in Jowhar said they had an elderly person sick and suffering from malnutrition, but local NGOs mainly provided services to children and mothers. He wanted to know how the elderly could access help. A female caller in Lower Shabelle asked what mothers could do if they were unable to breastfeed their babies for two years, as advocated by doctors.</p>\n<p><strong>IDPs</strong> \u2013 in Baidoa, a caller in Bula-Jameo said he was among people displaced from Busle. They had lost their livelihoods and were facing hardships and poverty. In Lower Shabelle region, a female caller in Marka said people had been displaced from El-Warego area and were facing hardships in an IDP camp. She wanted her message to be shared to get help.</p>\n<p><strong>Livestock</strong> \u2013 among callers seeking veterinary help, some were concerned by parasites affecting camels and goats. A female caller in Qansahley, Gedo region, said their livestock were thin and sick, despite being given fodder. She wanted to know how to make them gain weight. A pastoralist in Jarirow, Hiran region, said the drought conditions in the area had caused livestock to be sick. They wanted to know how to treat their herds.</p>\n<p><strong>Agriculture</strong> \u2013 farmers in Beletweyne, Balad, and Jowhar complained of aphids destroying crops such as maize, tomatoes, and animal fodder. Others descried pests they didn\u2019t name eating various crops and vegetables. One caller said there were no crops on his farmland due to water shortage and he wanted advice on how to grow crops with little water.</p>\n<p><strong>Drought and water shortage</strong> \u2013 the biggest number of callers were focused on this topic. There were callers from across Galmudug. A female caller in Bohol said the drought was severe. Among several from Dusamareb, a female caller asked for help due to the drought and water crisis. A caller in Do\u2019oley said they had no water or livestock fodder. In El-dhere, a caller said their farms had failed and they needed help drilling boreholes to serve their water needs. Female callers in Higlale and Mirisyale said they had no water and that livestock were struggling and they needed aid. In Hiran, a farmer in Beletweyne noted the concerning drop in the river Shabelle water level. A female caller said their livestock were dying and the only available water was brackish ground water contaminated with minerals. Another said they were tired of constantly searching for fodder for their livestock. Several called from Middle Shabelle citing tough conditions affecting people and livestock. In Lower Shabelle, a caller in Shalabood said they lacked water and were appealing for help. A caller in Wanlaweyn said a jerrycan of water cost 7,000 shillings. A caller in Warsheikh said they were facing drought and conflict in the area and needed humanitarian intervention. In Janale, two female callers living in camps said they had been displaced by drought and conflict in Awdhegle and were destitute without water and no jobs. In Gedo region, a caller in Bardera said their livestock were dying due to the drought. Several called from Garbaharey citing challenges induced by severe drought. A caller in Luq appealed for food and water aid from agencies. Several callers from other unspecified Jubbaland locations cited hardships affecting people and killing livestock. Two females called from Ethiopia\u2019s Somali Region, including one in Ferfer, citing dead or dying livestock, lack of food, and appealing for aid.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/somalia/radio-ergo-weekly-feedback-report-issued-9-jan-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:07:45 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "RS",
+    "name": "Republic of Serbia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SS",
+    "name": "South Sudan",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:00:00 +0000",
+    "events": [
+      {
+        "title": "South Sudan: Increase in abductions and sexual violence \u2018unacceptable\u2019",
+        "summary": "Despite reductions in the overall number of conflict-related incidents in South Sudan, a rise in abductions and sexual violence is concerning, the UN peacekeeping mission in the country, UNMISS, said on Friday.&nbsp;",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/feed/view/en/story/2026/01/1166734"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:00:00 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "ST",
+    "name": "S\u00e3o Tom\u00e9 and Principe",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SR",
+    "name": "Suriname",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SK",
+    "name": "Slovakia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SI",
+    "name": "Slovenia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SE",
+    "name": "Sweden",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SZ",
+    "name": "eSwatini",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SX",
+    "name": "Sint Maarten",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SC",
+    "name": "Seychelles",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "SY",
+    "name": "Syria",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 23:21:10 +0000",
+    "events": [
+      {
+        "title": "Syrian army renews Aleppo strikes as Kurdish fighters refuse to budge",
+        "summary": "Syrian army announces the start of a military operation in the Sheikh Maqsoud neighbourhood of Aleppo.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/syrian-army-renews-aleppo-strikes-as-kurdish-fighters-refuse-to-budge?traffic_source=rss"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/syrian-arab-republic/syria-aleppo-escalation-violence-un-ocha-dg-echo-partners-echo-daily-flash-9-january-2026"
+          },
+          {
+            "name": "DW World",
+            "url": "https://www.dw.com/en/syrian-army-renews-strikes-on-kurdish-fighters-in-aleppo/a-75457783?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 23:21:10 +0000",
+        "topic": "security"
+      },
+      {
+        "title": "New video said to show Syrian army shelling Aleppo\u2019s Sheikh Maqsoud area",
+        "summary": "The Kurdish-led Syrian Democratic Forces have shared new video of the Syrian army shelling a large weapons depot.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/1/9/new-video-said-to-show-syrian-army-shelling-aleppos-sheikh-maqsoud-area?traffic_source=rss"
+          },
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/syrian-arab-republic/unicef-syrian-arab-republic-humanitarian-flash-update-1-escalation-violence-aleppo-8-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 17:44:28 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 1,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "TC",
+    "name": "Turks and Caicos Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TD",
+    "name": "Chad",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TG",
+    "name": "Togo",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+    "events": [
+      {
+        "title": "Burkina Faso : Aper\u00e7u humanitaire (octobre 2025)",
+        "summary": "<div class=\"tag country\">Countries: Burkina Faso, C\u00f4te d'Ivoire, Ghana, Mali, Niger, Togo</div>\n                                      <div class=\"tag source\">Source: UN Office for the Coordination of Humanitarian Affairs</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/57/91/57916fd9-d651-4f4c-8827-287cdf87d9b2.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/burkina-faso/burkina-faso-apercu-humanitaire-octobre-2025"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 13:22:18 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "TH",
+    "name": "Thailand",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:24:26 +0000",
+    "events": [
+      {
+        "title": "Cambodia Situation Report 14: Cambodia-Thailand Border Situation",
+        "summary": "<div class=\"tag country\">Countries: Cambodia, Thailand</div>\n                                      <div class=\"tag source\">Sources: DanChurchAid, World Food Programme</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/ce/2d/ce2d3884-af89-49db-b447-5a598ecb4ca0.png\" /></p>\n                        <p>Please refer to the attached file.</p>\n                        <p><em>This report is produced by the Humanitarian Response Forum (HRF) in collaboration with humanitarian partners. It covers the period from 3rd \u2013 9th January 2026.</em></p>\n<h2>Situation and Impact</h2>\n<p>More than four weeks into the current phase of the Cambodia\u2013Thailand border crisis, the operating environment remains fluid, with reduced large-scale movements compared to the peak of displacement in December. Returns have started in some areas, but conditions vary by location. Response planning therefore covers both ongoing displacement and phased returns, guided by safety, access and the availability of basic services.</p>\n<p>As of 8th January 2026, the National Committee for Disaster Management (NCDM) reported that around <strong>475,000 displaced people have returned to their places of origin</strong>. Approximately 173,776people remain displaced, including 91,170 women and 56,757 children of whom 64,018 are residing in 127 sites and 109,758 people are staying with host community/relatives. An unknown number from these displaced are unlikely to return any time soon due to contamination of their habitats from UXOs, house damaged, and insecurity. Needs remain significant among households still in displacement, particularly in relation to safe water, sanitation and hygiene, food assistance, shelter and non-food items, primary health care and essential medicines, and protection services, including support for children, women, older people and persons with disabilities.</p>\n<p><strong>At the same time, return movements are generating a parallel set of needs in areas of origin</strong>. Households are reporting gaps linked to disrupted services and lost assets, including damage to housing, limited access to safe water and sanitation, constrained access to health and education services, and reduced livelihood opportunities. Immediate priorities include ensuring safe and dignified returns through clear information and access to services, restoring basic infrastructure where feasible, and sustaining targeted assistance for the most vulnerable families both in evacuation centres and in return areas, including psychosocial support and strengthened community-based protection and referral mechanisms.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/cambodia/cambodia-situation-report-14-cambodia-thailand-border-situation"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:24:26 +0000",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "TJ",
+    "name": "Tajikistan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TK",
+    "name": "Tokelau",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TM",
+    "name": "Turkmenistan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TL",
+    "name": "East Timor",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TO",
+    "name": "Tonga",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TT",
+    "name": "Trinidad and Tobago",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TN",
+    "name": "Tunisia",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TR",
+    "name": "Turkey",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TV",
+    "name": "Tuvalu",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TW",
+    "name": "Taiwan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "TZ",
+    "name": "United Republic of Tanzania",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:29:10 +0000",
+    "events": [
+      {
+        "title": "Tanzania - Floods (IFRC, TMA) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: United Republic of Tanzania</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>Heavy rainfall has been affecting central-eastern Tanzania (in particular the Morogoro region) since the end of December 2025, causing floods and overflowing rivers that have resulted in casualties and damage.</li>\n<li>According to the International Federation of Red Cross and Red Crescent Societies (IFRC), as of 9 January, 1 320 people have been injured, around 1 500 have been evacuated in a number of temporary evacuation sites and a total of approximately 1 800 people have been affected across the Morogoro region, Kilosa district being the worst hit. The same source also reports destroyed and damaged houses across the affected area.</li>\n<li>Over the next 72 hours, more rainfall with locally heavy rainfall is still forecast over most of the country, including the Morogoro region.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/united-republic-tanzania/tanzania-floods-ifrc-tma-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:10 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "UG",
+    "name": "Uganda",
+    "activity_level": "Active",
+    "updated_at": "",
+    "events": [
+      {
+        "title": "Uganda's debt crisis deepens ahead of elections",
+        "summary": "With debt at record highs and new loans approved, Uganda faces growing pressure. Economists warn the strategy may backfire on future growth.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "DW World",
+            "url": "https://www.dw.com/en/uganda-s-debt-crisis-deepens-ahead-of-elections/a-75399953?maca=en-rss-en-world-4025-rdf"
+          }
+        ],
+        "updated_at": "",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "UA",
+    "name": "Ukraine",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:52:21 +0000",
+    "events": [
+      {
+        "title": "Russia hits Ukraine with rarely used Oreshnik missile in fresh strikes",
+        "summary": "It is only the second time Moscow has deployed the hypersonic ballistic missile, which was first used to hit Dnipro in November.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/cgqe9kv9xxvo?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 11:26:38 GMT",
+        "topic": "security"
+      },
+      {
+        "title": "Ukraine: Massive overnight attack leaves millions in the dark",
+        "summary": "UN agencies are supporting efforts on Friday to keep energy services up and running in Ukraine, and families warm amid freezing winter temperatures, following a large-scale overnight attack.&nbsp;",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "UN News",
+            "url": "https://news.un.org/feed/view/en/story/2026/01/1166732"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:00:00 +0000",
+        "topic": "energy"
+      },
+      {
+        "title": "Ukraine: Focus Groups with Women from the Veteran Community: Findings and Policy Recommendations for Local and Regional Veteran Programs in Zaporizhzhia Region",
+        "summary": "<div class=\"tag country\">Country: Ukraine</div>\n                                      <div class=\"tag source\">Source: UN Women</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b3/98/b398437e-494a-4251-8c05-cbccdb927ad5.png\" /></p>\n                        <p>Please refer to the attached files.</p>\n                        <p>In 2025, the Advocacy Working Group on Gender Equality, Inclusion, and Human Rights in Zaporizhzhia Oblast (the Regional GiHA Working Group), with the involvement of national experts from UN Women, conducted an analysis of the Comprehensive Municipal Programme \u201cVeterans Policy of the Zaporizhzhia City Territorial Community for 2025\u20132027.\u201d The results of the analysis revealed that the local humanitarian and development initiatives and interventions in Zaporizhzhia did not sufficiently address the specific needs of women within the veteran community.</p>\n<p>Therefore, in August 2025, a study was conducted to identify the specific needs of women veterans, women from veterans\u2019 families, and women from the families of fallen Defenders, residing in Zaporizhzhia Oblast. The study was carried out through focus group discussions held separately for each category, with participants including both local women and internally displaced women of different age groups.</p>\n<p>Based on the study\u2019s findings, recommendations were developed for local self-government bodies, the regional state administration, and local and international organizations to improve their response to the needs of women in the veteran community and to strengthen their participation in decision-<br />\nmaking processes.</p>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/ukraine/focus-groups-women-veteran-community-findings-and-policy-recommendations-local-and-regional-veteran-programs-zaporizhzhia-region"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:52:21 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 3,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "UM",
+    "name": "United States Minor Outlying Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "UY",
+    "name": "Uruguay",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "US",
+    "name": "United States of America",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 06:02:31 GMT",
+    "events": [
+      {
+        "title": "Colombia sees 'real threat' of US military action, president tells BBC",
+        "summary": "Gustavo Petro tells the BBC's Ione Wells that the United States is treating other nations as part of a US \"empire\", after Trump threatened Colombia with military action.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/cwygjvkvpgro?at_medium=RSS&at_campaign=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 06:02:31 GMT",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "UZ",
+    "name": "Uzbekistan",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VA",
+    "name": "Vatican",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VE",
+    "name": "Venezuela",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 23:55:55 +0000",
+    "events": [
+      {
+        "title": "Trump promises oil executives \u2018total safety\u2019 if they invest in Venezuela",
+        "summary": "Experts said oil execs gave a &#039;less-than-full-throated&#039; approval as they waited on terms from US and Venezuela.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/1/9/trump-promises-oil-executives-total-safety-if-they-invest-in-venezuela?traffic_source=rss"
+          },
+          {
+            "name": "BBC World",
+            "url": "https://www.bbc.com/news/articles/c205dx61x76o?at_medium=RSS&at_campaign=rss"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/1/9/big-and-small-oil-companies-summoned-to-meet-trump-on-venezuelan-oil?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 23:55:55 +0000",
+        "topic": "energy"
+      },
+      {
+        "title": "Venezuela starts \u2018exploratory process\u2019 to re-establish formal ties with US",
+        "summary": "US State Department officials are visiting Caracas less than a week after the military abduction of Nicolas Maduro.",
+        "why": "",
+        "confidence": "High",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/venezuela-starts-exploratory-process-to-re-establish-formal-ties-with-us?traffic_source=rss"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/chinese-russian-and-iranian-warships-arrive-for-drills-in-south-africa?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 19:09:59 +0000",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 2,
+      "disputes": 1,
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "VG",
+    "name": "British Virgin Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VI",
+    "name": "United States Virgin Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VN",
+    "name": "Vietnam",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "VU",
+    "name": "Vanuatu",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "WF",
+    "name": "Wallis and Futuna",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "WS",
+    "name": "Samoa",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "YE",
+    "name": "Yemen",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ZA",
+    "name": "South Africa",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 16:24:58 +0000",
+    "events": [
+      {
+        "title": "Chinese, Russian and Iranian warships arrive for drills in South Africa",
+        "summary": "Naval exercises come as tensions run high after US military intervention in Venezuela, seizures of several oil tankers.",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/1/9/chinese-russian-and-iranian-warships-arrive-for-drills-in-south-africa?traffic_source=rss"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 16:24:58 +0000",
+        "topic": "security"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 1,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "ZM",
+    "name": "Zambia",
+    "activity_level": "Active",
+    "updated_at": "Fri, 09 Jan 2026 12:29:12 +0000",
+    "events": [
+      {
+        "title": "Zambia - Floods (IFRC, Disaster Charter, ZMD) (ECHO Daily Flash of 9 January 2026)",
+        "summary": "<div class=\"tag country\">Country: Zambia</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                                              <ul><li>Very heavy rainfall affected north-eastern Zambia (in particular the Eastern province) over the period from the end of December 2025 to early January 2026, causing floods that have resulted in population displacement and severe damage.</li>\n<li>The International Federation of Red Cross and Red Crescent Societies (IFRC) reports, as of 9 January, around 2 260 displaced people and more than 370 destroyed houses across the Lundazi district (the worst affected) and the Lumezi district, both in the Eastern province.</li>\n<li>Over the next 96 hours, more heavy rainfall, with locally very heavy rainfall, is still forecast over most of the country, including the whole Eastern province.</li>\n</ul>",
+        "why": "",
+        "confidence": "Medium",
+        "sources": [
+          {
+            "name": "ReliefWeb",
+            "url": "https://reliefweb.int/report/zambia/zambia-floods-ifrc-disaster-charter-zmd-echo-daily-flash-9-january-2026"
+          }
+        ],
+        "updated_at": "Fri, 09 Jan 2026 12:29:12 +0000",
+        "topic": "humanitarian"
+      }
+    ],
+    "stats": {
+      "signals": 1,
+      "disputes": 0,
+      "confidence": 0.6
+    }
+  },
+  {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "dhekelia-sovereign-base-area",
+    "name": "Dhekelia Sovereign Base Area",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "somaliland",
+    "name": "Somaliland",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "us-naval-base-guantanamo-bay",
+    "name": "US Naval Base Guantanamo Bay",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "brazilian-island",
+    "name": "Brazilian Island",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "northern-cyprus",
+    "name": "Northern Cyprus",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "cyprus-no-mans-area",
+    "name": "Cyprus No Mans Area",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "siachen-glacier",
+    "name": "Siachen Glacier",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "baykonur-cosmodrome",
+    "name": "Baykonur Cosmodrome",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "akrotiri-sovereign-base-area",
+    "name": "Akrotiri Sovereign Base Area",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "southern-patagonian-ice-field",
+    "name": "Southern Patagonian Ice Field",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "bir-tawil",
+    "name": "Bir Tawil",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "indian-ocean-territories",
+    "name": "Indian Ocean Territories",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "coral-sea-islands",
+    "name": "Coral Sea Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "spratly-islands",
+    "name": "Spratly Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "clipperton-island",
+    "name": "Clipperton Island",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "ashmore-and-cartier-islands",
+    "name": "Ashmore and Cartier Islands",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "bajo-nuevo-bank-petrel-is",
+    "name": "Bajo Nuevo Bank (Petrel Is.)",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "serranilla-bank",
+    "name": "Serranilla Bank",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  },
+  {
+    "id": "scarborough-reef",
+    "name": "Scarborough Reef",
+    "activity_level": "Calm",
+    "updated_at": "",
+    "events": [],
+    "stats": {
+      "signals": 0,
+      "disputes": 0,
+      "confidence": 0.0
+    }
+  }
+]

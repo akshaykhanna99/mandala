@@ -1,0 +1,15 @@
+{
+  "version": 8,
+  "name": "Mandala Dark Borders",
+  "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+  "sources": {},
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#050505"
+      }
+    }
+  ]
+}

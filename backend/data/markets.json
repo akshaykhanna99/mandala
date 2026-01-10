@@ -1,0 +1,156 @@
+[
+  {
+    "id": "spy.us",
+    "name": "S&P 500 (SPY)",
+    "symbol": "SPY.US",
+    "category": "Equities",
+    "price": 93.6948,
+    "change": 0.6403999999999996,
+    "change_pct": 0.6881995907770074,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "gld.us",
+    "name": "Gold (GLD)",
+    "symbol": "GLD.US",
+    "category": "Metals",
+    "price": 43.5,
+    "change": -0.020000000000003126,
+    "change_pct": -0.04595588235294836,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "slv.us",
+    "name": "Silver (SLV)",
+    "symbol": "SLV.US",
+    "category": "Metals",
+    "price": 13.81,
+    "change": -0.05999999999999872,
+    "change_pct": -0.43258832011534765,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "pplt.us",
+    "name": "Platinum (PPLT)",
+    "symbol": "PPLT.US",
+    "category": "Metals",
+    "price": 159.0,
+    "change": -1.210000000000008,
+    "change_pct": -0.7552587229261644,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "pall.us",
+    "name": "Palladium (PALL)",
+    "symbol": "PALL.US",
+    "category": "Metals",
+    "price": 43.17,
+    "change": -0.5300000000000011,
+    "change_pct": -1.212814645308927,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "aapl.us",
+    "name": "Apple",
+    "symbol": "AAPL.US",
+    "category": "Stocks",
+    "price": 0.0996047,
+    "change": 0.0005912000000000001,
+    "change_pct": 0.5970902957677489,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "msft.us",
+    "name": "Microsoft",
+    "symbol": "MSFT.US",
+    "category": "Stocks",
+    "price": 0.069028,
+    "change": 0.0,
+    "change_pct": 0.0,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "nvda.us",
+    "name": "Nvidia",
+    "symbol": "NVDA.US",
+    "category": "Stocks",
+    "price": 0.0376018,
+    "change": -0.0038972999999999994,
+    "change_pct": -9.391288003836227,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "tsla.us",
+    "name": "Tesla",
+    "symbol": "TSLA.US",
+    "category": "Stocks",
+    "price": 1.13333,
+    "change": -0.4593400000000001,
+    "change_pct": -28.840877268988557,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "Stooq"
+  },
+  {
+    "id": "DGS2",
+    "name": "US 2Y Yield",
+    "symbol": "DGS2",
+    "category": "Rates",
+    "price": 3.49,
+    "change": 0.020000000000000018,
+    "change_pct": 0.5763688760806921,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "FRED"
+  },
+  {
+    "id": "DGS10",
+    "name": "US 10Y Yield",
+    "symbol": "DGS10",
+    "category": "Rates",
+    "price": 4.19,
+    "change": 0.040000000000000036,
+    "change_pct": 0.9638554216867478,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "FRED"
+  },
+  {
+    "id": "DGS30",
+    "name": "US 30Y Yield",
+    "symbol": "DGS30",
+    "category": "Rates",
+    "price": 4.85,
+    "change": 0.02999999999999936,
+    "change_pct": 0.6224066390041361,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "FRED"
+  },
+  {
+    "id": "T10Y2Y",
+    "name": "10Y-2Y Spread",
+    "symbol": "T10Y2Y",
+    "category": "Rates",
+    "price": 0.64,
+    "change": -0.05999999999999994,
+    "change_pct": -8.571428571428562,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "FRED"
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "category": "Crypto",
+    "price": 90532.0,
+    "change": null,
+    "change_pct": -0.5390540085393969,
+    "updated_at": "Updated 2026-01-10 00:06 UTC",
+    "source": "CoinGecko"
+  }
+]

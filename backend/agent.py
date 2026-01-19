@@ -1,5 +1,6 @@
 import os
-from typing import List
+import re
+from typing import List, Set
 
 import httpx
 
@@ -7,7 +8,28 @@ from .data_store import load_global_items, load_market_items, load_snapshots
 from .models import AgentRequest, AgentResponse, GlobalItem, MarketItem, CountrySnapshot
 
 
+def _tokenize(text: str) -> Set[str]:
+    return set(re.findall(r"[a-zA-Z]{3,}", text.lower()))
+
+
+def _clean_text(text: str, limit: int = 240) -> str:
+    if not text:
+        return ""
+    cleaned = re.sub(r"<[^>]+>", " ", text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    if len(cleaned) > limit:
+        cleaned = f"{cleaned[:limit].rstrip()}..."
+    return cleaned
+
+
+def _is_relevant(text: str, query_terms: Set[str]) -> bool:
+    if not query_terms:
+        return True
+    return bool(_tokenize(text) & query_terms)
+
+
 def _build_context(
+    query_terms: Set[str],
     global_items: List[GlobalItem],
     snapshots: List[CountrySnapshot],
     markets: List[MarketItem],
@@ -23,7 +45,7 @@ def _build_context(
                 f"- {item.title} ({countries}) | {item.source.name} | {item.published_at}"
             )
             if item.summary:
-                lines.append(f"  Summary: {item.summary}")
+                lines.append(f"  Summary: {_clean_text(item.summary)}")
 
     if snapshots:
         lines.append("Country event clusters:")
@@ -31,8 +53,16 @@ def _build_context(
             if not snapshot.events:
                 continue
             lines.append(f"- {snapshot.name} ({snapshot.activity_level})")
-            for event in snapshot.events[:2]:
-                lines.append(f"  • {event.title} | {event.updated_at}")
+            added = 0
+            for event in snapshot.events:
+                if added >= 2:
+                    break
+                haystack = " ".join(
+                    [event.title, event.summary, event.why, event.topic, snapshot.name]
+                )
+                if _is_relevant(haystack, query_terms):
+                    lines.append(f"  • {event.title} | {event.updated_at}")
+                    added += 1
 
     if markets:
         lines.append("Markets snapshot:")
@@ -53,7 +83,52 @@ def query_agent(payload: AgentRequest) -> AgentResponse:
     snapshots = load_snapshots()
     markets = load_market_items()
 
-    context = _build_context(global_items, snapshots, markets)
+    query_terms = _tokenize(payload.query)
+
+    filtered_globals = [
+        item
+        for item in global_items
+        if _is_relevant(
+            " ".join(
+                [
+                    item.title,
+                    item.summary,
+                    item.topic,
+                    item.source.name,
+                    " ".join(item.countries or []),
+                ]
+            ),
+            query_terms,
+        )
+    ]
+    filtered_snapshots = []
+    for snapshot in snapshots:
+        if _is_relevant(snapshot.name, query_terms):
+            filtered_snapshots.append(snapshot)
+            continue
+        for event in snapshot.events:
+            haystack = " ".join([event.title, event.summary, event.why, event.topic])
+            if _is_relevant(haystack, query_terms):
+                filtered_snapshots.append(snapshot)
+                break
+
+    filtered_markets = [
+        market
+        for market in markets
+        if _is_relevant(
+            " ".join([market.name, market.symbol, market.category, market.source]),
+            query_terms,
+        )
+    ]
+
+    context = _build_context(
+        query_terms,
+        filtered_globals or [],
+        filtered_snapshots or [],
+        filtered_markets or [],
+    )
+    if not filtered_globals and not filtered_snapshots and not filtered_markets:
+        context = f"{context}\nNo relevant items found in local feeds."
     system_prompt = (
         "You are Chanakya, a geopolitics intelligence assistant. "
         "Answer clearly and concisely in 5-7 sentences max. "

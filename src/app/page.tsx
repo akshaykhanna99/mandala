@@ -77,6 +77,7 @@ export default function Home() {
   const [showLabels, setShowLabels] = useState(true);
   const [showCapitals, setShowCapitals] = useState(true);
   const [showAirTraffic, setShowAirTraffic] = useState(false);
+  const [useGlobe, setUseGlobe] = useState(false);
   const [feedQuery, setFeedQuery] = useState("");
   const [feedCountry, setFeedCountry] = useState("All");
   const [feedOutlet, setFeedOutlet] = useState("All");
@@ -514,6 +515,7 @@ export default function Home() {
           showLabels={showLabels}
           showCapitals={showCapitals}
           showAirTraffic={showAirTraffic}
+          useGlobe={useGlobe}
           airTraffic={airTraffic}
           pins={pins}
         />
@@ -549,12 +551,14 @@ export default function Home() {
               showLabels={showLabels}
               showCapitals={showCapitals}
               showAirTraffic={showAirTraffic}
+              useGlobe={useGlobe}
               isRefreshing={isRefreshing}
               showSignals={showSignals}
               showAgent={showAgent}
               onToggleLabels={() => setShowLabels((prev) => !prev)}
               onToggleCapitals={() => setShowCapitals((prev) => !prev)}
               onToggleAirTraffic={() => setShowAirTraffic((prev) => !prev)}
+              onToggleGlobe={() => setUseGlobe((prev) => !prev)}
               onRefresh={handleRefresh}
               onToggleSignals={() => setShowSignals((prev) => !prev)}
               onToggleAgent={() => setShowAgent((prev) => !prev)}

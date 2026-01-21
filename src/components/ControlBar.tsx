@@ -4,12 +4,14 @@ type ControlBarProps = {
   showLabels: boolean;
   showCapitals: boolean;
   showAirTraffic: boolean;
+  useGlobe: boolean;
   isRefreshing: boolean;
   showSignals: boolean;
   showAgent: boolean;
   onToggleLabels: () => void;
   onToggleCapitals: () => void;
   onToggleAirTraffic: () => void;
+  onToggleGlobe: () => void;
   onRefresh: () => void;
   onToggleSignals: () => void;
   onToggleAgent: () => void;
@@ -19,12 +21,14 @@ export default function ControlBar({
   showLabels,
   showCapitals,
   showAirTraffic,
+  useGlobe,
   isRefreshing,
   showSignals,
   showAgent,
   onToggleLabels,
   onToggleCapitals,
   onToggleAirTraffic,
+  onToggleGlobe,
   onRefresh,
   onToggleSignals,
   onToggleAgent,
@@ -53,6 +57,29 @@ export default function ControlBar({
           <path d="M3 12h18" />
           <path d="M12 3a12 12 0 0 1 0 18" />
           <path d="M12 3a12 12 0 0 0 0 18" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        onClick={onToggleGlobe}
+        className={`flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/80 transition hover:bg-white/10 ${
+          useGlobe ? "bg-white/10" : ""
+        }`}
+        aria-label={useGlobe ? "Switch to flat map" : "Switch to globe view"}
+        title={useGlobe ? "Switch to flat map" : "Switch to globe view"}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          className="h-4 w-4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.6"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z" />
+          <path d="M9 4v14" />
+          <path d="M15 6v14" />
         </svg>
       </button>
       <button

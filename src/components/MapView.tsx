@@ -11,6 +11,7 @@ type MapViewProps = {
   showLabels?: boolean;
   showCapitals?: boolean;
   showAirTraffic?: boolean;
+  useGlobe?: boolean;
   airTraffic?: AirTrafficPoint[];
   pins?: NewsPin[];
 };
@@ -43,6 +44,7 @@ export default function MapView({
   showLabels = true,
   showCapitals = true,
   showAirTraffic = false,
+  useGlobe = false,
   airTraffic = [],
   pins = [],
 }: MapViewProps) {
@@ -61,15 +63,17 @@ export default function MapView({
       container: containerRef.current,
       style: "/map-style.json",
       center: [12, 18],
-      zoom: 1.35,
+      zoom: useGlobe ? 2.1 : 1.35,
       minZoom: 1,
       maxZoom: 5,
+      projection: useGlobe ? "globe" : "mercator",
       attributionControl: false,
     });
 
 
     mapRef.current.on("load", async () => {
       try {
+        applyProjection(mapRef.current, useGlobe);
         const [countriesResponse, capitalsResponse] = await Promise.all([
           fetch("/countries.geojson"),
           fetch("/capitals.geojson"),
@@ -453,6 +457,18 @@ export default function MapView({
   }, []);
 
   useEffect(() => {
+    if (!mapRef.current) {
+      return;
+    }
+    const map = mapRef.current;
+    if (map.isStyleLoaded()) {
+      applyProjection(map, useGlobe);
+    } else {
+      map.once("load", () => applyProjection(map, useGlobe));
+    }
+  }, [useGlobe]);
+
+  useEffect(() => {
     if (!mapRef.current || !mapRef.current.getSource("country-borders")) {
       return;
     }
@@ -506,6 +522,29 @@ export default function MapView({
   }, [showCapitals]);
 
   return <div ref={containerRef} className="h-full w-full" />;
+}
+
+function applyProjection(map: maplibregl.Map, useGlobe: boolean) {
+  if ("setProjection" in map) {
+    map.setProjection({ type: useGlobe ? "globe" : "mercator" });
+  }
+  if (useGlobe && map.getZoom() < 2.1) {
+    map.easeTo({ zoom: 3.5, duration: 800 });
+  }
+  if ("setFog" in map) {
+    if (useGlobe) {
+      map.setFog({
+        range: [0.5, 8],
+        color: "rgba(20, 20, 20, 0.55)",
+        "high-color": "rgba(8, 8, 10, 0.9)",
+        "horizon-blend": 0.15,
+        "space-color": "rgba(0, 0, 0, 0.95)",
+        "star-intensity": 0.25,
+      });
+    } else {
+      map.setFog();
+    }
+  }
 }
 
 function buildGraticule() {

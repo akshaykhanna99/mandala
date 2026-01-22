@@ -12,6 +12,7 @@ type MapViewProps = {
   showCapitals?: boolean;
   showAirTraffic?: boolean;
   useGlobe?: boolean;
+  issPosition?: IssPosition | null;
   airTraffic?: AirTrafficPoint[];
   pins?: NewsPin[];
 };
@@ -36,6 +37,12 @@ export type AirTrafficPoint = {
   velocity?: number | null;
 };
 
+export type IssPosition = {
+  latitude: number;
+  longitude: number;
+  timestamp?: number;
+};
+
 export default function MapView({
   onHoverCountry,
   onHoverPosition,
@@ -45,6 +52,7 @@ export default function MapView({
   showCapitals = true,
   showAirTraffic = false,
   useGlobe = false,
+  issPosition = null,
   airTraffic = [],
   pins = [],
 }: MapViewProps) {
@@ -283,6 +291,8 @@ export default function MapView({
         updatePinsSource(mapRef.current, centroidRef.current, pins);
         ensureAirTrafficLayers(mapRef.current);
         updateAirTrafficSource(mapRef.current, airTraffic);
+        ensureIssLayer(mapRef.current);
+        updateIssSource(mapRef.current, issPosition);
 
         const airVisibility = showAirTraffic ? "visible" : "none";
         mapRef.current?.setLayoutProperty("air-traffic-heat", "visibility", airVisibility);
@@ -481,6 +491,13 @@ export default function MapView({
     }
     updateAirTrafficSource(mapRef.current, airTraffic);
   }, [airTraffic]);
+
+  useEffect(() => {
+    if (!mapRef.current) {
+      return;
+    }
+    updateIssSource(mapRef.current, issPosition);
+  }, [issPosition]);
 
   useEffect(() => {
     if (!mapRef.current) {
@@ -872,6 +889,89 @@ function updateAirTrafficSource(map: maplibregl.Map, points: AirTrafficPoint[]) 
     },
   }));
   source.setData({ type: "FeatureCollection", features });
+}
+
+function ensureIssLayer(map: maplibregl.Map) {
+  if (!map.getSource("iss-position")) {
+    map.addSource("iss-position", {
+      type: "geojson",
+      data: { type: "FeatureCollection", features: [] },
+    });
+  }
+
+  if (!map.getLayer("iss-glow")) {
+    map.addLayer({
+      id: "iss-glow",
+      type: "circle",
+      source: "iss-position",
+      paint: {
+        "circle-radius": 12,
+        "circle-color": "rgba(120,200,255,0.25)",
+        "circle-blur": 0.9,
+        "circle-opacity": 0.9,
+      },
+    });
+  }
+
+  if (!map.getLayer("iss-dot")) {
+    map.addLayer({
+      id: "iss-dot",
+      type: "circle",
+      source: "iss-position",
+      paint: {
+        "circle-radius": 3.5,
+        "circle-color": "rgba(170,230,255,0.95)",
+        "circle-stroke-color": "rgba(0,0,0,0.6)",
+        "circle-stroke-width": 1,
+      },
+    });
+  }
+
+  if (!map.getLayer("iss-label")) {
+    map.addLayer({
+      id: "iss-label",
+      type: "symbol",
+      source: "iss-position",
+      layout: {
+        "text-field": "ISS",
+        "text-size": 11,
+        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+        "text-offset": [0, 1.2],
+        "text-anchor": "top",
+      },
+      paint: {
+        "text-color": "rgba(200,230,255,0.9)",
+        "text-halo-color": "rgba(0,0,0,0.6)",
+        "text-halo-width": 0.8,
+      },
+    });
+  }
+}
+
+function updateIssSource(map: maplibregl.Map, position: IssPosition | null) {
+  const source = map.getSource("iss-position") as maplibregl.GeoJSONSource | undefined;
+  if (!source) {
+    return;
+  }
+  if (!position) {
+    source.setData({ type: "FeatureCollection", features: [] });
+    return;
+  }
+  source.setData({
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        geometry: {
+          type: "Point",
+          coordinates: [position.longitude, position.latitude],
+        },
+        properties: {
+          timestamp: position.timestamp ?? null,
+        },
+      },
+    ],
+  });
 }
 
 function coercePin(properties?: maplibregl.GeoJSONFeature["properties"]): NewsPin | null {

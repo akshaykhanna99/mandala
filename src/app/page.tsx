@@ -3,7 +3,11 @@
 import ControlBar from "@/components/ControlBar";
 import ChatPanel from "@/components/ChatPanel";
 import MarketsFeed from "@/components/MarketsFeed";
-import MapView, { type AirTrafficPoint, type NewsPin } from "@/components/MapView";
+import MapView, {
+  type AirTrafficPoint,
+  type IssPosition,
+  type NewsPin,
+} from "@/components/MapView";
 import SignalsFeed, { type FeedItem } from "@/components/SignalsFeed";
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -92,6 +96,7 @@ export default function Home() {
   const [snapshots, setSnapshots] = useState<Record<string, CountrySnapshot>>({});
   const [marketItems, setMarketItems] = useState<MarketItem[]>([]);
   const [airTraffic, setAirTraffic] = useState<AirTrafficPoint[]>([]);
+  const [issPosition, setIssPosition] = useState<IssPosition | null>(null);
   const [notams, setNotams] = useState<NotamItem[]>([]);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [lastSignalsUpdate, setLastSignalsUpdate] = useState<string>("");
@@ -486,6 +491,32 @@ export default function Home() {
     }
   };
 
+  const loadIssPosition = async () => {
+    try {
+      const response = await fetch("http://api.open-notify.org/iss-now.json");
+      if (!response.ok) {
+        throw new Error("Failed to fetch ISS position");
+      }
+      const data = await response.json();
+      const position = data?.iss_position;
+      if (!position) {
+        return;
+      }
+      const latitude = Number(position.latitude);
+      const longitude = Number(position.longitude);
+      if (Number.isNaN(latitude) || Number.isNaN(longitude)) {
+        return;
+      }
+      setIssPosition({
+        latitude,
+        longitude,
+        timestamp: typeof data.timestamp === "number" ? data.timestamp : undefined,
+      });
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   useEffect(() => {
     if (!showAirTraffic) {
       return;
@@ -504,6 +535,21 @@ export default function Home() {
     };
   }, [showAirTraffic]);
 
+  useEffect(() => {
+    let cancelled = false;
+    const tick = async () => {
+      if (!cancelled) {
+        await loadIssPosition();
+      }
+    };
+    tick();
+    const interval = window.setInterval(tick, 15000);
+    return () => {
+      cancelled = true;
+      window.clearInterval(interval);
+    };
+  }, []);
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0">
@@ -516,6 +562,7 @@ export default function Home() {
           showCapitals={showCapitals}
           showAirTraffic={showAirTraffic}
           useGlobe={useGlobe}
+          issPosition={issPosition}
           airTraffic={airTraffic}
           pins={pins}
         />

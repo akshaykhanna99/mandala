@@ -1,6 +1,16 @@
 # Mandala
 
-A geopolitics intelligence dashboard with a Next.js frontend and FastAPI backend.
+A Geopolitical Risk Intelligence Platform that provides real-time analysis of geopolitical risks for financial assets. Features AI-powered intelligence retrieval, automated risk scoring, and comprehensive portfolio health dashboards.
+
+## Features
+
+- **GP Health Scan**: Automated 5-step pipeline analyzing geopolitical risks for any asset in under 60 seconds
+- **Real-Time Intelligence**: Web search integration with multi-source intelligence aggregation
+- **AI-Powered Analysis**: Claude AI for semantic filtering and theme impact summaries
+- **Portfolio Management**: View client portfolios with GP health scores and trend analysis
+- **PDF Report Generation**: One-click professional PDF reports with asset and impact summaries
+- **Tunable Scoring System**: Fully configurable intelligence scoring parameters
+- **Audit Trail**: Complete database storage of all scans with relational asset linking
 
 ## Development Setup
 
@@ -56,9 +66,41 @@ npm run dev
 - Frontend: [http://localhost:3000](http://localhost:3000)
 - Backend API: [http://localhost:8000](http://localhost:8000)
 
-### Notes
+## Application Pages
 
-- The backend uses PostgreSQL for data storage
-- Database tables are automatically created on first startup
+- **Desk** (`/desk`): Main dashboard with map view, market feeds, and signals
+- **Manager** (`/manager`): Client portfolio management (view-only) with GP Health Dashboard
+- **Demo** (`/demo`): Interactive GP Health Scan demonstration
+
+## Key Capabilities
+
+### GP Health Scan Pipeline
+
+1. **Asset Characterization**: Analyzes asset properties (country, region, sector, exposures)
+2. **Theme Identification**: Matches asset against 20+ geopolitical themes
+3. **Intelligence Retrieval**: Real-time web search with multi-factor scoring
+4. **Impact Assessment**: AI-generated theme impact summaries
+5. **Probability Calculation**: Negative/Neutral/Positive risk probabilities
+
+### Database Schema
+
+- **Assets**: Store asset information (name, ticker, country, sector, etc.)
+- **GP Scans**: Store complete scan results with full audit trail
+- **Themes**: Customizable geopolitical themes with tunable weights
+- **Scoring Settings**: Global scoring system parameters
+
+## Documentation
+
+- **DEMO_INSTRUCTIONS.md**: Complete walkthrough for demonstrating the platform
+- **docs/regulatory/**: Regulatory documentation (FCA excerpts, requirements)
+
+## Notes
+
+- The backend uses PostgreSQL for data storage (Neon/Supabase/Render)
+- Database tables are created via Alembic migrations (`alembic upgrade head`)
 - Both servers must be running for the app to work
-- Optional: Create `backend/.env` for API keys (see `backend/README.md` for details)
+- Required API keys in `backend/.env`:
+  - `DATABASE_URL`: PostgreSQL connection string
+  - `ANTHROPIC_API_KEY`: For Claude AI semantic filtering (optional)
+  - `TAVILY_API_KEY`: For web search intelligence (optional)
+  - `OLLAMA_BASE_URL`: For LLM analysis (defaults to localhost)

@@ -45,11 +45,12 @@ export default function ManagerPage() {
         </div>
       </header>
 
-      {/* Client Dashboard - Always visible, contains search */}
+      {/* Client Dashboard - Always visible, contains search, view-only mode */}
       <ClientDashboard
         clients={demoClients}
         selectedClientId={selectedClient}
         onClientChange={setSelectedClient}
+        viewOnly={true}
       />
     </div>
   );

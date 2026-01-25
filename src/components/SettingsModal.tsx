@@ -47,6 +47,9 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
   const [loadingScoring, setLoadingScoring] = useState(true);
   const [editingScoring, setEditingScoring] = useState(false);
   const [editedScoring, setEditedScoring] = useState<Partial<ScoringSettings>>({});
+  const [editingSources, setEditingSources] = useState(false);
+  const [newSourceName, setNewSourceName] = useState("");
+  const [newSourceScore, setNewSourceScore] = useState(0.7);
 
   // Load themes from API
   useEffect(() => {
@@ -167,6 +170,34 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
     setEditedScoring({
       ...editedScoring,
       [field]: { ...current, [key]: value },
+    });
+  };
+
+  const handleAddSource = () => {
+    if (!newSourceName.trim()) return;
+    
+    const current = (editedScoring.source_quality_scores as Record<string, number>) || 
+                    (scoringSettings?.source_quality_scores as Record<string, number>) || {};
+    
+    setEditedScoring({
+      ...editedScoring,
+      source_quality_scores: { ...current, [newSourceName.trim()]: newSourceScore },
+    });
+    
+    setNewSourceName("");
+    setNewSourceScore(0.7);
+  };
+
+  const handleDeleteSource = (sourceName: string) => {
+    const current = (editedScoring.source_quality_scores as Record<string, number>) || 
+                    (scoringSettings?.source_quality_scores as Record<string, number>) || {};
+    
+    const updated = { ...current };
+    delete updated[sourceName];
+    
+    setEditedScoring({
+      ...editedScoring,
+      source_quality_scores: updated,
     });
   };
 
@@ -1182,23 +1213,90 @@ export default function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
 
                       {/* Source Quality Scores */}
                       <div className="rounded-lg border border-slate-200 bg-white p-4">
-                        <h5 className="mb-3 text-sm font-semibold text-slate-900">Source Quality Scores</h5>
+                        <div className="mb-3 flex items-center justify-between">
+                          <h5 className="text-sm font-semibold text-slate-900">Source Quality Scores</h5>
+                          <button
+                            type="button"
+                            onClick={() => setEditingSources(!editingSources)}
+                            className="rounded border border-slate-300 bg-white px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+                          >
+                            {editingSources ? "Done Editing" : "Edit Sources"}
+                          </button>
+                        </div>
+                        
                         <div className="grid grid-cols-3 gap-3 text-xs max-h-96 overflow-y-auto">
                           {Object.entries(editedScoring.source_quality_scores || scoringSettings.source_quality_scores).map(([source, score]) => (
-                            <div key={source}>
+                            <div key={source} className="relative">
                               <label className="block font-medium text-slate-700">{source}:</label>
-                              <input
-                                type="number"
-                                min="0"
-                                max="1"
-                                step="0.05"
-                                value={typeof score === 'number' ? score : 0}
-                                onChange={(e) => handleScoringDictFieldChange("source_quality_scores", source, parseFloat(e.target.value))}
-                                className="mt-1 w-full rounded border border-slate-300 px-2 py-1"
-                              />
+                              <div className="flex items-center gap-2">
+                                <input
+                                  type="number"
+                                  min="0"
+                                  max="1"
+                                  step="0.05"
+                                  value={typeof score === 'number' ? score : 0}
+                                  onChange={(e) => handleScoringDictFieldChange("source_quality_scores", source, parseFloat(e.target.value))}
+                                  className="mt-1 flex-1 rounded border border-slate-300 px-2 py-1"
+                                />
+                                {editingSources && source !== "default" && (
+                                  <button
+                                    type="button"
+                                    onClick={() => handleDeleteSource(source)}
+                                    className="mt-1 rounded border border-red-300 bg-red-50 px-2 py-1 text-[10px] font-medium text-red-700 hover:bg-red-100 transition-colors"
+                                    title="Delete source"
+                                  >
+                                    ×
+                                  </button>
+                                )}
+                              </div>
                             </div>
                           ))}
                         </div>
+                        
+                        {/* Add New Source */}
+                        {editingSources && (
+                          <div className="mt-4 rounded-lg border border-slate-300 bg-slate-50 p-3">
+                            <h6 className="mb-2 text-xs font-semibold text-slate-900">Add New Source</h6>
+                            <div className="flex items-end gap-2">
+                              <div className="flex-1">
+                                <label className="block text-[10px] font-medium text-slate-700 mb-1">Source Name:</label>
+                                <input
+                                  type="text"
+                                  value={newSourceName}
+                                  onChange={(e) => setNewSourceName(e.target.value)}
+                                  placeholder="e.g., CNN"
+                                  className="w-full rounded border border-slate-300 px-2 py-1 text-xs"
+                                  onKeyDown={(e) => {
+                                    if (e.key === "Enter") {
+                                      e.preventDefault();
+                                      handleAddSource();
+                                    }
+                                  }}
+                                />
+                              </div>
+                              <div className="w-20">
+                                <label className="block text-[10px] font-medium text-slate-700 mb-1">Score:</label>
+                                <input
+                                  type="number"
+                                  min="0"
+                                  max="1"
+                                  step="0.05"
+                                  value={newSourceScore}
+                                  onChange={(e) => setNewSourceScore(parseFloat(e.target.value))}
+                                  className="w-full rounded border border-slate-300 px-2 py-1 text-xs"
+                                />
+                              </div>
+                              <button
+                                type="button"
+                                onClick={handleAddSource}
+                                disabled={!newSourceName.trim()}
+                                className="rounded border border-slate-300 bg-white px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                              >
+                                Add
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </div>
 
                       <div className="flex justify-end gap-2 pt-2">

@@ -52,6 +52,11 @@ type DetailedHolding = {
     hold: number; // Probability (0-1)
     buy: number; // Probability (0-1)
   };
+  gp_score_history?: {
+    "1m": { sell: number; hold: number; buy: number };
+    "3m": { sell: number; hold: number; buy: number };
+    "6m": { sell: number; hold: number; buy: number };
+  };
 };
 
 type ClientData = {
@@ -81,7 +86,7 @@ function getClientData(clientId: string, clientName: string, riskTolerance: stri
   
   const baseValue = 50000000 + (seed % 200000000); // $50M - $250M
   
-  // Generate detailed holdings
+  // Generate detailed holdings - 5-6 famous real companies
   const holdingsTemplates: Array<{
     name: string;
     class: AssetClass;
@@ -92,17 +97,114 @@ function getClientData(clientId: string, clientName: string, riskTolerance: stri
     allocation: number;
     ticker?: string;
     isin?: string;
+    gp_score?: { sell: number; hold: number; buy: number }; // Dummy GP scores
+    gp_score_history?: {
+      "1m": { sell: number; hold: number; buy: number };
+      "3m": { sell: number; hold: number; buy: number };
+      "6m": { sell: number; hold: number; buy: number };
+    };
   }> = [
     {
-      name: "Indian Semiconductor Manufacturing Corp",
+      name: "Apple Inc.",
+      class: "Equities",
+      region: "Developed Markets",
+      country: "United States",
+      sub_region: "North America",
+      sector: "Technology",
+      allocation: 0.20,
+      ticker: "AAPL",
+      isin: "US0378331005",
+      gp_score: { sell: 0.15, hold: 0.60, buy: 0.25 },
+      gp_score_history: {
+        "1m": { sell: 0.12, hold: 0.62, buy: 0.26 },
+        "3m": { sell: 0.10, hold: 0.65, buy: 0.25 },
+        "6m": { sell: 0.08, hold: 0.67, buy: 0.25 },
+      },
+    },
+    {
+      name: "Samsung Electronics",
+      class: "Equities",
+      region: "Developed Markets",
+      country: "South Korea",
+      sub_region: "East Asia",
+      sector: "Technology",
+      allocation: 0.18,
+      ticker: "005930",
+      isin: "KR7005930003",
+      gp_score: { sell: 0.25, hold: 0.55, buy: 0.20 },
+      gp_score_history: {
+        "1m": { sell: 0.22, hold: 0.58, buy: 0.20 },
+        "3m": { sell: 0.20, hold: 0.60, buy: 0.20 },
+        "6m": { sell: 0.18, hold: 0.62, buy: 0.20 },
+      },
+    },
+    {
+      name: "Nestlé S.A.",
+      class: "Equities",
+      region: "Developed Markets",
+      country: "Switzerland",
+      sub_region: "Western Europe",
+      sector: "Consumer Staples",
+      allocation: 0.15,
+      ticker: "NESN",
+      isin: "CH0038863350",
+      gp_score: { sell: 0.10, hold: 0.70, buy: 0.20 },
+      gp_score_history: {
+        "1m": { sell: 0.10, hold: 0.70, buy: 0.20 },
+        "3m": { sell: 0.10, hold: 0.70, buy: 0.20 },
+        "6m": { sell: 0.10, hold: 0.70, buy: 0.20 },
+      },
+    },
+    {
+      name: "Saudi Aramco",
       class: "Equities",
       region: "Emerging Markets",
-      country: "India",
-      sub_region: "South Asia",
+      country: "Saudi Arabia",
+      sub_region: "Middle East",
+      sector: "Energy",
+      allocation: 0.17,
+      ticker: "2222",
+      isin: "SA14TG012N13",
+      gp_score: { sell: 0.30, hold: 0.50, buy: 0.20 },
+      gp_score_history: {
+        "1m": { sell: 0.28, hold: 0.52, buy: 0.20 },
+        "3m": { sell: 0.25, hold: 0.55, buy: 0.20 },
+        "6m": { sell: 0.22, hold: 0.58, buy: 0.20 },
+      },
+    },
+    {
+      name: "Tencent Holdings",
+      class: "Equities",
+      region: "Emerging Markets",
+      country: "China",
+      sub_region: "East Asia",
       sector: "Technology",
-      allocation: 1.0, // Single asset, 100% allocation
-      ticker: "ISMC",
-      isin: "INE123A01001",
+      allocation: 0.15,
+      ticker: "0700",
+      isin: "KYG875721634",
+      gp_score: { sell: 0.35, hold: 0.45, buy: 0.20 },
+      gp_score_history: {
+        "1m": { sell: 0.33, hold: 0.47, buy: 0.20 },
+        "3m": { sell: 0.30, hold: 0.50, buy: 0.20 },
+        "6m": { sell: 0.28, hold: 0.52, buy: 0.20 },
+      },
+    },
+    {
+      name: "Gold (Spot)",
+      class: "Commodities",
+      region: "Global",
+      country: undefined,
+      sub_region: undefined,
+      sector: "Commodities",
+      allocation: 0.15,
+      ticker: "XAUUSD",
+      isin: undefined,
+      gp_score: { sell: 0.20, hold: 0.50, buy: 0.30 },
+      gp_score_history: {
+        "1m": { sell: 0.22, hold: 0.48, buy: 0.30 },
+        "3m": { sell: 0.25, hold: 0.45, buy: 0.30 },
+        "6m": { sell: 0.28, hold: 0.42, buy: 0.30 },
+      },
     },
   ];
   
@@ -171,8 +273,9 @@ function getClientData(clientId: string, clientName: string, riskTolerance: stri
       beta: beta,
       duration: duration,
       credit_rating: creditRating,
-      // GP score will be populated when scan is run
-      gp_score: undefined,
+      // GP score - use dummy value from template if available
+      gp_score: template.gp_score,
+      gp_score_history: template.gp_score_history,
     };
   });
   
@@ -220,6 +323,7 @@ type ClientDashboardProps = {
   onClientChange: (clientId: string) => void;
   hideClientSelector?: boolean;
   demoMode?: boolean; // Demo mode: shows asset search instead of client holdings
+  viewOnly?: boolean; // View-only mode: disables scan button
 };
 
 export default function ClientDashboard({
@@ -228,6 +332,7 @@ export default function ClientDashboard({
   onClientChange,
   hideClientSelector = false,
   demoMode = false,
+  viewOnly = false,
 }: ClientDashboardProps) {
   const selectedClient = clients.find((c) => c.id === selectedClientId);
   const clientData = selectedClient
@@ -312,7 +417,7 @@ export default function ClientDashboard({
     if (!clientData) return [];
     return clientData.holdings.map((holding) => ({
       ...holding,
-      gp_score: gpScores[holding.id] || undefined,
+      gp_score: gpScores[holding.id] || holding.gp_score || undefined,
     }));
   }, [clientData, gpScores]);
 
@@ -769,7 +874,7 @@ export default function ClientDashboard({
       accessor: (h) => h.quantity || 0,
       render: (h) => h.quantity?.toLocaleString() || "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "value",
@@ -777,7 +882,7 @@ export default function ClientDashboard({
       accessor: (h) => h.value,
       render: (h) => formatCurrency(h.value),
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "cost_basis",
@@ -785,7 +890,7 @@ export default function ClientDashboard({
       accessor: (h) => h.cost_basis || 0,
       render: (h) => h.cost_basis ? formatCurrency(h.cost_basis) : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "allocation_pct",
@@ -793,7 +898,7 @@ export default function ClientDashboard({
       accessor: (h) => h.allocation_pct,
       render: (h) => `${h.allocation_pct.toFixed(2)}%`,
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "allocation_class_pct",
@@ -801,7 +906,7 @@ export default function ClientDashboard({
       accessor: (h) => h.allocation_class_pct || 0,
       render: (h) => h.allocation_class_pct ? `${h.allocation_class_pct.toFixed(2)}%` : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "pnl_to_date",
@@ -813,7 +918,7 @@ export default function ClientDashboard({
         </span>
       ),
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "pnl_pct",
@@ -825,7 +930,7 @@ export default function ClientDashboard({
         </span>
       ),
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "ytd_return",
@@ -833,7 +938,7 @@ export default function ClientDashboard({
       accessor: (h) => h.ytd_return || 0,
       render: (h) => h.ytd_return !== undefined ? `${h.ytd_return >= 0 ? "+" : ""}${h.ytd_return.toFixed(2)}%` : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "last_price",
@@ -841,7 +946,7 @@ export default function ClientDashboard({
       accessor: (h) => h.last_price || 0,
       render: (h) => h.last_price ? formatCurrency(h.last_price) : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "entry_date",
@@ -865,7 +970,7 @@ export default function ClientDashboard({
       accessor: (h) => h.beta || 0,
       render: (h) => h.beta !== undefined ? h.beta.toFixed(2) : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "duration",
@@ -873,7 +978,7 @@ export default function ClientDashboard({
       accessor: (h) => h.duration || 0,
       render: (h) => h.duration !== undefined ? h.duration.toFixed(1) : "-",
       sortable: true,
-      align: "right",
+      align: "left",
     },
     {
       key: "credit_rating",
@@ -949,7 +1054,7 @@ export default function ClientDashboard({
         );
       },
       sortable: true,
-      align: "right",
+      align: "left",
     },
   ];
 
@@ -1030,8 +1135,8 @@ export default function ClientDashboard({
             </div>
           )}
 
-          {/* GP Health Scan Button - Only show in non-demo mode here */}
-          {!demoMode && (
+          {/* GP Health Scan Button - Only show in non-demo mode and non-view-only mode */}
+          {!demoMode && !viewOnly && (
             <button
               type="button"
               onClick={handleScan}
@@ -1331,15 +1436,17 @@ export default function ClientDashboard({
                         )}
                       </div>
 
-                      {/* GP Health Scan Button (after summary) */}
-                      <button
-                        type="button"
-                        onClick={handleScan}
-                        disabled={isScanning}
-                        className="w-full rounded-full border border-slate-300 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-white shadow-sm transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400/20 disabled:opacity-50 disabled:cursor-not-allowed"
-                      >
-                        {isScanning ? "Scanning..." : "Run GP Health Scan"}
-                      </button>
+                      {/* GP Health Scan Button (after summary) - Hidden in view-only mode */}
+                      {!viewOnly && (
+                        <button
+                          type="button"
+                          onClick={handleScan}
+                          disabled={isScanning}
+                          className="w-full rounded-full border border-slate-300 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-white shadow-sm transition hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                        >
+                          {isScanning ? "Scanning..." : "Run GP Health Scan"}
+                        </button>
+                      )}
                     </>
                   )}
                 </div>
@@ -1354,24 +1461,27 @@ export default function ClientDashboard({
                 </h3>
                 <div className="flex items-center gap-3">
                   {/* GP Score Legend */}
-                  <div className="flex items-center gap-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5">
-                    <div className="flex items-center gap-1.5">
-                      <div className={`h-3 w-3 rounded ${demoMode ? "bg-pink-300" : "bg-red-500"}`} />
-                      <span className="text-[10px] font-medium text-slate-700">
-                        {demoMode ? "Negative" : "Sell"}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className={`h-3 w-3 rounded ${demoMode ? "bg-yellow-200" : "bg-yellow-500"}`} />
-                      <span className="text-[10px] font-medium text-slate-700">
-                        {demoMode ? "Neutral" : "Hold"}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <div className={`h-3 w-3 rounded ${demoMode ? "bg-green-300" : "bg-green-500"}`} />
-                      <span className="text-[10px] font-medium text-slate-700">
-                        {demoMode ? "Positive" : "Buy"}
-                      </span>
+                  <div className="flex flex-col gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2">
+                    <span className="text-[10px] font-semibold text-slate-900">GP Health Scan</span>
+                    <div className="flex items-center gap-3">
+                      <div className="flex items-center gap-1.5">
+                        <div className={`h-3 w-3 rounded ${demoMode ? "bg-pink-300" : "bg-red-500"}`} />
+                        <span className="text-[10px] font-medium text-slate-700">
+                          Negative
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        <div className={`h-3 w-3 rounded ${demoMode ? "bg-yellow-200" : "bg-yellow-500"}`} />
+                        <span className="text-[10px] font-medium text-slate-700">
+                          Neutral
+                        </span>
+                      </div>
+                      <div className="flex items-center gap-1.5">
+                        <div className={`h-3 w-3 rounded ${demoMode ? "bg-green-300" : "bg-green-500"}`} />
+                        <span className="text-[10px] font-medium text-slate-700">
+                          Positive
+                        </span>
+                      </div>
                     </div>
                   </div>
                   
@@ -1452,6 +1562,311 @@ export default function ClientDashboard({
                 </div>
               </div>
             </div>
+            )}
+
+            {/* GP Health Dashboard */}
+            {!demoMode && clientData && sortedHoldings.length > 0 && (
+              <div className="mt-8 rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="mb-4 text-sm font-semibold text-slate-900">GP Health Dashboard</h3>
+                
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+                  {/* Overall Portfolio GP Health Score */}
+                  {(() => {
+                    const holdingsWithScores = sortedHoldings.filter(h => h.gp_score);
+                    if (holdingsWithScores.length === 0) return null;
+                    
+                    const totalValue = holdingsWithScores.reduce((sum, h) => sum + h.value, 0);
+                    const weightedNegative = holdingsWithScores.reduce((sum, h) => 
+                      sum + (h.gp_score!.sell * h.value), 0) / totalValue;
+                    const weightedNeutral = holdingsWithScores.reduce((sum, h) => 
+                      sum + (h.gp_score!.hold * h.value), 0) / totalValue;
+                    const weightedPositive = holdingsWithScores.reduce((sum, h) => 
+                      sum + (h.gp_score!.buy * h.value), 0) / totalValue;
+                    
+                    return (
+                      <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+                        <p className="mb-2 text-xs font-medium text-slate-600">Portfolio GP Health</p>
+                        <div className="relative flex h-8 w-full overflow-hidden rounded border border-slate-300">
+                          {weightedNegative > 0 && (
+                            <div
+                              className="flex items-center justify-center text-[10px] font-semibold bg-red-500 text-white"
+                              style={{ width: `${Math.round(weightedNegative * 100)}%` }}
+                            >
+                              {Math.round(weightedNegative * 100) >= 10 && `${Math.round(weightedNegative * 100)}%`}
+                            </div>
+                          )}
+                          {weightedNeutral > 0 && (
+                            <div
+                              className="flex items-center justify-center text-[10px] font-semibold bg-yellow-500 text-slate-900"
+                              style={{ width: `${Math.round(weightedNeutral * 100)}%` }}
+                            >
+                              {Math.round(weightedNeutral * 100) >= 10 && `${Math.round(weightedNeutral * 100)}%`}
+                            </div>
+                          )}
+                          {weightedPositive > 0 && (
+                            <div
+                              className="flex items-center justify-center text-[10px] font-semibold bg-green-500 text-white"
+                              style={{ width: `${Math.round(weightedPositive * 100)}%` }}
+                            >
+                              {Math.round(weightedPositive * 100) >= 10 && `${Math.round(weightedPositive * 100)}%`}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Assets by Risk Category */}
+                  {(() => {
+                    const holdingsWithScores = sortedHoldings.filter(h => h.gp_score);
+                    if (holdingsWithScores.length === 0) return null;
+                    
+                    const negativeCount = holdingsWithScores.filter(h => {
+                      const { sell, hold, buy } = h.gp_score!;
+                      return sell > hold && sell > buy;
+                    }).length;
+                    
+                    const neutralCount = holdingsWithScores.filter(h => {
+                      const { sell, hold, buy } = h.gp_score!;
+                      return hold > sell && hold > buy;
+                    }).length;
+                    
+                    const positiveCount = holdingsWithScores.filter(h => {
+                      const { sell, hold, buy } = h.gp_score!;
+                      return buy > sell && buy > hold;
+                    }).length;
+                    
+                    return (
+                      <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+                        <p className="mb-3 text-xs font-medium text-slate-600">Assets by Risk</p>
+                        <div className="space-y-2">
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <div className="h-2.5 w-2.5 rounded bg-red-500" />
+                              <span className="text-xs text-slate-700">Negative</span>
+                            </div>
+                            <span className="text-xs font-semibold text-slate-900">{negativeCount}</span>
+                          </div>
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <div className="h-2.5 w-2.5 rounded bg-yellow-500" />
+                              <span className="text-xs text-slate-700">Neutral</span>
+                            </div>
+                            <span className="text-xs font-semibold text-slate-900">{neutralCount}</span>
+                          </div>
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <div className="h-2.5 w-2.5 rounded bg-green-500" />
+                              <span className="text-xs text-slate-700">Positive</span>
+                            </div>
+                            <span className="text-xs font-semibold text-slate-900">{positiveCount}</span>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Top Risk Countries */}
+                  {(() => {
+                    const holdingsWithScores = sortedHoldings.filter(h => h.gp_score && h.country);
+                    if (holdingsWithScores.length === 0) return null;
+                    
+                    const countryRisk = new Map<string, { count: number; avgNegative: number }>();
+                    holdingsWithScores.forEach(h => {
+                      const country = h.country!;
+                      const negative = h.gp_score!.sell;
+                      const existing = countryRisk.get(country) || { count: 0, avgNegative: 0 };
+                      countryRisk.set(country, {
+                        count: existing.count + 1,
+                        avgNegative: (existing.avgNegative * existing.count + negative) / (existing.count + 1)
+                      });
+                    });
+                    
+                    const topRiskyCountries = Array.from(countryRisk.entries())
+                      .sort((a, b) => b[1].avgNegative - a[1].avgNegative)
+                      .slice(0, 3);
+                    
+                    if (topRiskyCountries.length === 0) return null;
+                    
+                    return (
+                      <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+                        <p className="mb-3 text-xs font-medium text-slate-600">Top Risk Countries</p>
+                        <div className="space-y-2">
+                          {topRiskyCountries.map(([country, data]) => (
+                            <div key={country} className="flex items-center justify-between">
+                              <span className="text-xs text-slate-700">{country}</span>
+                              <span className="text-xs font-semibold text-red-700">
+                                {Math.round(data.avgNegative * 100)}%
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Sector Risk Breakdown */}
+                  {(() => {
+                    const holdingsWithScores = sortedHoldings.filter(h => h.gp_score && h.sector);
+                    if (holdingsWithScores.length === 0) return null;
+                    
+                    const sectorRisk = new Map<string, { count: number; avgNegative: number }>();
+                    holdingsWithScores.forEach(h => {
+                      const sector = h.sector;
+                      const negative = h.gp_score!.sell;
+                      const existing = sectorRisk.get(sector) || { count: 0, avgNegative: 0 };
+                      sectorRisk.set(sector, {
+                        count: existing.count + 1,
+                        avgNegative: (existing.avgNegative * existing.count + negative) / (existing.count + 1)
+                      });
+                    });
+                    
+                    const topRiskySectors = Array.from(sectorRisk.entries())
+                      .sort((a, b) => b[1].avgNegative - a[1].avgNegative)
+                      .slice(0, 3);
+                    
+                    if (topRiskySectors.length === 0) return null;
+                    
+                    return (
+                      <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+                        <p className="mb-3 text-xs font-medium text-slate-600">Top Risk Sectors</p>
+                        <div className="space-y-2">
+                          {topRiskySectors.map(([sector, data]) => (
+                            <div key={sector} className="flex items-center justify-between">
+                              <span className="text-xs text-slate-700">{sector}</span>
+                              <span className="text-xs font-semibold text-red-700">
+                                {Math.round(data.avgNegative * 100)}%
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+                </div>
+
+                {/* Ones to Watch Section */}
+                {(() => {
+                  const holdingsWithHistory = sortedHoldings.filter(h => h.gp_score && h.gp_score_history);
+                  if (holdingsWithHistory.length === 0) return null;
+
+                  // Calculate absolute change in percentage points (pp)
+                  const calculateChange = (current: number, historical: number) => {
+                    return (current - historical) * 100; // Convert to percentage points
+                  };
+
+                  const getVerdict = (holding: DetailedHolding): "escalating" | "improving" | "no change" => {
+                    if (!holding.gp_score || !holding.gp_score_history) return "no change";
+                    
+                    const current = holding.gp_score.sell;
+                    const m1 = holding.gp_score_history["1m"].sell;
+                    const m3 = holding.gp_score_history["3m"].sell;
+                    const m6 = holding.gp_score_history["6m"].sell;
+                    
+                    // Calculate trend: if negative risk is consistently increasing, it's escalating
+                    const trend1m = current - m1;
+                    const trend3m = current - m3;
+                    const trend6m = current - m6;
+                    
+                    // If all trends show increasing negative risk, it's escalating
+                    if (trend1m > 0.02 && trend3m > 0.03 && trend6m > 0.05) return "escalating";
+                    // If all trends show decreasing negative risk, it's improving
+                    if (trend1m < -0.02 && trend3m < -0.03 && trend6m < -0.05) return "improving";
+                    // Otherwise no significant change
+                    return "no change";
+                  };
+
+                  return (
+                    <div className="mt-6">
+                      <h4 className="mb-3 text-xs font-semibold text-slate-900">Ones to Watch</h4>
+                      <div className="overflow-x-auto">
+                        <table className="w-full border-collapse">
+                          <thead>
+                            <tr className="border-b border-slate-200 bg-slate-50">
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">Asset</th>
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">Current</th>
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">1M Ago</th>
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">3M Ago</th>
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">6M Ago</th>
+                              <th className="px-3 py-2 text-left text-[10px] font-semibold text-slate-700">Verdict</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-slate-100">
+                            {holdingsWithHistory.map((holding) => {
+                              const current = holding.gp_score!.sell;
+                              const m1 = holding.gp_score_history!["1m"].sell;
+                              const m3 = holding.gp_score_history!["3m"].sell;
+                              const m6 = holding.gp_score_history!["6m"].sell;
+                              
+                              const change1m = calculateChange(current, m1);
+                              const change3m = calculateChange(current, m3);
+                              const change6m = calculateChange(current, m6);
+                              
+                              const verdict = getVerdict(holding);
+                              
+                              const formatRiskValue = (value: number) => {
+                                return `${Math.round(value * 100)}%`;
+                              };
+                              
+                              const formatChange = (change: number) => {
+                                const sign = change >= 0 ? "+" : "";
+                                const color = change > 0 ? "text-red-700" : change < 0 ? "text-green-700" : "text-slate-700";
+                                return (
+                                  <div className="flex flex-col">
+                                    <span className="text-xs text-slate-700">{formatRiskValue(change < 0 ? current + Math.abs(change)/100 : current - change/100)}</span>
+                                    <span className={`text-[10px] ${color}`}>
+                                      {sign}{change.toFixed(1)}pp
+                                    </span>
+                                  </div>
+                                );
+                              };
+                              
+                              const getVerdictBadge = (verdict: string) => {
+                                const styles = {
+                                  escalating: "bg-red-100 text-red-800 border-red-200",
+                                  improving: "bg-green-100 text-green-800 border-green-200",
+                                  "no change": "bg-slate-100 text-slate-800 border-slate-200",
+                                };
+                                const labels = {
+                                  escalating: "Escalating",
+                                  improving: "Improving",
+                                  "no change": "No Change",
+                                };
+                                return (
+                                  <span className={`rounded-full border px-2 py-0.5 text-[10px] font-medium ${styles[verdict as keyof typeof styles]}`}>
+                                    {labels[verdict as keyof typeof labels]}
+                                  </span>
+                                );
+                              };
+                              
+                              return (
+                                <tr key={holding.id} className="hover:bg-slate-50">
+                                  <td className="px-3 py-2">
+                                    <div>
+                                      <p className="text-xs font-medium text-slate-900">{holding.name}</p>
+                                      {holding.ticker && (
+                                        <p className="text-[10px] text-slate-500">{holding.ticker}</p>
+                                      )}
+                                    </div>
+                                  </td>
+                                  <td className="px-3 py-2">
+                                    <span className="text-xs font-semibold text-slate-900">{formatRiskValue(current)}</span>
+                                    <p className="text-[10px] text-slate-500">Negative Risk</p>
+                                  </td>
+                                  <td className="px-3 py-2 text-xs">{formatChange(change1m)}</td>
+                                  <td className="px-3 py-2 text-xs">{formatChange(change3m)}</td>
+                                  <td className="px-3 py-2 text-xs">{formatChange(change6m)}</td>
+                                  <td className="px-3 py-2">{getVerdictBadge(verdict)}</td>
+                                </tr>
+                              );
+                            })}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
             )}
 
             {/* Pipeline Progress */}

@@ -2,6 +2,12 @@
 
 A Geopolitical Risk Intelligence Platform that provides real-time analysis of geopolitical risks for financial assets. Features AI-powered intelligence retrieval, automated risk scoring, and comprehensive portfolio health dashboards.
 
+## 🎥 Demo Video
+
+[Watch the Demo Video](https://your-video-link-here) - See Mandala in action with a complete walkthrough of the GP Health Scan pipeline.
+
+*Replace `https://your-video-link-here` with your actual video URL (YouTube, Vimeo, Loom, etc.)*
+
 ## Features
 
 - **GP Health Scan**: Automated 5-step pipeline analyzing geopolitical risks for any asset in under 60 seconds

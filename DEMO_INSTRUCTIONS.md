@@ -6,7 +6,7 @@ Mandala is a Geopolitical Risk Intelligence Platform that provides real-time ana
 
 ## 🎥 Demo Video
 
-[Watch the Demo Video](https://youtu.be/mcB4hEu6-FY) - Complete walkthrough of all features and capabilities.
+[Watch the Demo Video](https://youtu.be/f7vNzIwL2ho) - Complete walkthrough of all features and capabilities.
 
 ## Quick Start
 

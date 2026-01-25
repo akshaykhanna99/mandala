@@ -5,6 +5,8 @@ from typing import Dict, List, Any
 import httpx
 
 
+# Note: AviationAPI doesn't have a NOTAMs endpoint
+# This is a placeholder - you'll need to use a different NOTAM API service
 DEFAULT_NOTAM_URL = "https://api.aviationapi.com/v1/notams"
 
 
@@ -24,30 +26,36 @@ def _coerce_item(raw: Dict[str, Any]) -> Dict[str, str]:
 
 
 def fetch_notams() -> List[Dict[str, str]]:
-    base_url = os.getenv("NOTAM_API_BASE", DEFAULT_NOTAM_URL).strip()
-    airports = os.getenv("NOTAM_AIRPORTS", "").strip()
-    params = {"apt": airports} if airports else None
-    try:
-        response = httpx.get(base_url, params=params, timeout=20)
-        response.raise_for_status()
-        data = response.json()
-    except httpx.HTTPError as exc:
-        print(f"[notams] request failed: {exc}")
-        return []
-
-    items: List[Dict[str, str]] = []
-    if isinstance(data, list):
-        for raw in data:
-            if isinstance(raw, dict):
-                items.append(_coerce_item(raw))
-        return items
-
-    if isinstance(data, dict):
-        for value in data.values():
-            if isinstance(value, list):
-                for raw in value:
-                    if isinstance(raw, dict):
-                        items.append(_coerce_item(raw))
-        return items
-
-    return items
+    # AviationAPI doesn't have a NOTAMs endpoint
+    # Return empty list for now - you can integrate a different NOTAM API service
+    print("[notams] NOTAMs API not available - AviationAPI doesn't support NOTAMs")
+    return []
+    
+    # Uncomment below if you set up a different NOTAM API:
+    # base_url = os.getenv("NOTAM_API_BASE", DEFAULT_NOTAM_URL).strip()
+    # airports = os.getenv("NOTAM_AIRPORTS", "").strip()
+    # params = {"apt": airports} if airports else None
+    # try:
+    #     response = httpx.get(base_url, params=params, timeout=20)
+    #     response.raise_for_status()
+    #     data = response.json()
+    # except httpx.HTTPError as exc:
+    #     print(f"[notams] request failed: {exc}")
+    #     return []
+    #
+    # items: List[Dict[str, str]] = []
+    # if isinstance(data, list):
+    #     for raw in data:
+    #         if isinstance(raw, dict):
+    #             items.append(_coerce_item(raw))
+    #     return items
+    #
+    # if isinstance(data, dict):
+    #     for value in data.values():
+    #         if isinstance(value, list):
+    #             for raw in value:
+    #                 if isinstance(raw, dict):
+    #                     items.append(_coerce_item(raw))
+    #     return items
+    #
+    # return items

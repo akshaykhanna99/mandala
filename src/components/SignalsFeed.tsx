@@ -20,18 +20,9 @@ export type FeedItem = {
   topic: string;
 };
 
-type NotamItem = {
-  id: string;
-  location: string;
-  issued_at: string;
-  summary: string;
-  source: string;
-  updated_at: string;
-};
-
 type SignalsFeedProps = {
-  feedTab: "news" | "notams" | "socials";
-  onChangeTab: (tab: "news" | "notams" | "socials") => void;
+  feedTab: "news" | "socials";
+  onChangeTab: (tab: "news" | "socials") => void;
   feedQuery: string;
   onChangeQuery: (value: string) => void;
   lastUpdated: string;
@@ -49,7 +40,6 @@ type SignalsFeedProps = {
   outletsList: string[];
   topicsList: string[];
   feedItems: FeedItem[];
-  notams: NotamItem[];
   getStatusStyle: (status?: string) => string;
   truncateText: (text: string, maxLength: number) => string;
   onClose: () => void;
@@ -75,7 +65,6 @@ export default function SignalsFeed({
   outletsList,
   topicsList,
   feedItems,
-  notams,
   getStatusStyle,
   truncateText,
   onClose,
@@ -120,7 +109,6 @@ export default function SignalsFeed({
             {(
               [
                 { id: "news", label: "News" },
-                { id: "notams", label: "NOTAM" },
                 { id: "socials", label: "Socials" },
               ] as const
             ).map((tab) => (
@@ -244,29 +232,7 @@ export default function SignalsFeed({
         </div>
         <div className="flex-1 overflow-y-auto px-5 py-5">
           <div className="flex flex-col gap-4">
-            {feedTab === "notams" ? (
-              <>
-                {notams.length === 0 ? (
-                  <div className="rounded-2xl border border-white/10 bg-black/30 p-4 text-sm text-white/60">
-                    No NOTAM alerts loaded.
-                  </div>
-                ) : null}
-                {notams.map((item) => (
-                  <div
-                    key={`${item.id}-${item.location}-${item.issued_at}`}
-                    className="rounded-3xl border border-white/10 bg-black/30 p-4"
-                  >
-                    <div className="flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-white/50">
-                      <span>{item.location || "Global"}</span>
-                      <span>{item.issued_at || item.updated_at}</span>
-                    </div>
-                    <p className="mt-3 text-xs text-white/70">
-                      {truncateText(item.summary || "No details provided.", 180)}
-                    </p>
-                  </div>
-                ))}
-              </>
-            ) : feedTab === "socials" ? (
+            {feedTab === "socials" ? (
               <div className="rounded-2xl border border-white/10 bg-black/30 p-4 text-sm text-white/60">
                 Socials feed is not connected yet.
               </div>
